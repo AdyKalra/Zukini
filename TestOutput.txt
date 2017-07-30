@@ -1,0 +1,57 @@
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToTryUntilAButtonAppears
+Unique Test Id: 20170731_064121_ef554
+Screenshot: file:///C:/CrownBet/Screenshots/SmokeTest_Iwanttodemonstratehowtotryuntilabuttonappears_20170731_064121_ef554.png
+=> Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.FailedLoginDueToIncorrectUsernameOrPassword
+Unique Test Id: 20170731_064121_d11f4
+#10: Given I am at the login page
+#9: Given I create a button that creates a delayed button
+-> #9: done: SmokeTestSteps.GivenICreateAButtonThatCreatesADelayedButton() (0.1s)
+#9: When I use TryUntil on the button
+-> #9: error: Unable to find button: button1
+#9: Then the second button should exist
+-> #9: skipped because of previous errors
+-> #10: done: LoginSteps.GivenIAmAtTheLoginPage() (1.5s)
+#10: When I fill in the following form
+  --- table step argument ---
+  | field    | value    |
+  | Email    | xtrumanx |
+  | Password | P@55w0Rd |
+-> #10: error: Unable to find xpath: .//input[@name='Email']
+#10: And I click the login button
+-> #10: skipped because of previous errors
+#10: Then I should see "User name or password incorrect."
+-> #10: skipped because of previous errors
+Screenshot: file:///C:/CrownBet/Screenshots/Login_Failedloginduetoincorrectusernameorpassword_20170731_064121_d11f4.png
+=> Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.LoggingInWithValidCredentials
+Unique Test Id: 20170731_064129_28f4b
+Screenshot: file:///C:/CrownBet/Screenshots/Login_Logginginwithvalidcredentials_20170731_064129_28f4b.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Chrome",System.String[])
+Unique Test Id: 20170731_064127_71078
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("IE",System.String[])
+Unique Test Id: 20170731_064142_475e7
+Screenshot: file:///C:/CrownBet/Screenshots/SmokeTest_IwanttodemonstratehowtouseSpecFlowdatatables_20170731_064142_475e7.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("FireFox",System.String[])
+Unique Test Id: 20170731_064155_a50b1
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Safari",System.String[])
+Unique Test Id: 20170731_064208_11900
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseThePropertyBucket
+Unique Test Id: 20170731_064220_a142a
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToWaitForAButtonToAppear
+Unique Test Id: 20170731_064232_618e9
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToShowHowToUseRowAndCellHelpers
+Unique Test Id: 20170731_064238_3f5bd
+Screenshot: file:///C:/CrownBet/Screenshots/SmokeTest_Iwanttoshowhowtouserowandcellhelpers_20170731_064238_3f5bd.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite
+Unique Test Id: 20170731_064252_aea01
+Screenshot: file:///C:/CrownBet/Screenshots/SmokeTest_PerformagooglesearchforSpecFlowreturnsspecflow.orgsite_20170731_064252_aea01.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesNotTimeout
+Unique Test Id: 20170731_064300_b0d51
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesTimeout
+Unique Test Id: 20170731_064307_46f6d
+=> Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.DeleteAPostFromOurFakeAPI
+#20: Given an access token
+#22: Given I perform a DELETE for postId "1"
+#21: Given an access token
+-> #22: done: JsonPlaceholderApiSteps.GivenIPerformAdeleteForPostId(1) (1.1s)
+#22: Then I should get a status code of "OK"
+-> #22: done: JsonPlaceholderApiSteps.ThenIShouldGetAStatusCodeOf("OK") (0.0s)
