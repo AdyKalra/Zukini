@@ -173,6 +173,9 @@ PublishScripts/
 *.nuget.props
 *.nuget.targets
 
+# The screenshots folder can be ignored 
+**/Screenshots/*
+
 # Microsoft Azure Build Output
 csx/
 *.build.csdef
