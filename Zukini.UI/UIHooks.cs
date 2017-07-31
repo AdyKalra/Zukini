@@ -99,7 +99,8 @@ namespace Zukini.UI
         {
             try
             {
-                var artifactDirectory = Path.Combine(Directory.GetCurrentDirectory(), ZukiniConfig.ScreenshotDirectory);
+                // var artifactDirectory = Path.Combine(Directory.GetCurrentDirectory(), ZukiniConfig.ScreenshotDirectory);
+                var artifactDirectory = ZukiniConfig.ScreenshotDirectory;
                 if (!Directory.Exists(artifactDirectory))
                 {
                     Directory.CreateDirectory(artifactDirectory);
