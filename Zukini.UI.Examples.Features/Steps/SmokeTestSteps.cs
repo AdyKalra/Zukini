@@ -126,7 +126,7 @@ namespace Zukini.UI.Examples.Features.Steps
         [When(@"I use TryUntil on the button")]
         public void WhenIUseTryUntilOnTheButton()
         {
-            var action = new Action(() => Browser.FindButton("button1").Click());
+            var action = new Action(() => Browser.FindId("button1").ClickButton("button1"));
             Browser.TryUntil(action, () => Browser.FindAllXPath("//button").Count() == 2);
         }
 
