@@ -156,7 +156,7 @@ this.ScenarioSetup(scenarioInfo);
         [NUnit.Framework.DescriptionAttribute("I want to demonstrate how to use SpecFlow data tables")]
         [NUnit.Framework.CategoryAttribute("table_example")]
         [NUnit.Framework.TestCaseAttribute("Chrome", new string[0])]
-        [NUnit.Framework.TestCaseAttribute("IE", new string[0])]
+        [NUnit.Framework.TestCaseAttribute("Internet Explorer / Edge", new string[0])]
         [NUnit.Framework.TestCaseAttribute("FireFox", new string[0])]
         [NUnit.Framework.TestCaseAttribute("Safari", new string[0])]
         public virtual void IWantToDemonstrateHowToUseSpecFlowDataTables(string browser, string[] exampleTags)

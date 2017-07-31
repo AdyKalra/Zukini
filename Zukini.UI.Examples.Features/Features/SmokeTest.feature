@@ -41,7 +41,7 @@ Scenario Outline: I want to demonstrate how to use SpecFlow data tables
 	Examples:
 		| Browser |
 		| Chrome  |
-		| IE      |
+		| Internet Explorer / Edge  |
 		| FireFox |
 		| Safari  |
 
