@@ -88,23 +88,62 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Validate Sapient Contact Details")]
+        [NUnit.Framework.CategoryAttribute("google_search")]
+        [NUnit.Framework.TestCaseAttribute("+91 (080) 6128 0000", "+91 (080) 6128 0001", "info@sapient.com", new string[0])]
+        public virtual void ValidateSapientContactDetails(string phoneNumber, string faxNumber, string email, string[] exampleTags)
+        {
+            string[] @__tags = new string[] {
+                    "google_search"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Sapient Contact Details", @__tags);
+#line 15
+this.ScenarioSetup(scenarioInfo);
+#line 16
+ testRunner.Given("I Launch the Google Search Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 17
+ testRunner.And("I search for Sapient Global Markets", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 18
+ testRunner.When("I Click the 1 Search Result", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 19
+ testRunner.Then("Validate Sapient Global Markets Page is opened", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 20
+ testRunner.When("I Click the Contact Menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 21
+ testRunner.And("I Scroll down", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 22
+ testRunner.And("I Select Bengaluru Location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 23
+ testRunner.Then(string.Format("Validate Phone Number is {0}", phoneNumber), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 24
+ testRunner.And(string.Format("Validate Fax Number is {0}", faxNumber), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 25
+ testRunner.And(string.Format("Validate Email is {0}", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("I want to show how to use row and cell helpers")]
         [NUnit.Framework.CategoryAttribute("table_example")]
         public virtual void IWantToShowHowToUseRowAndCellHelpers()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("I want to show how to use row and cell helpers", new string[] {
                         "table_example"});
-#line 15
+#line 33
 this.ScenarioSetup(scenarioInfo);
-#line 16
+#line 34
  testRunner.Given("I navigate to W3Schools table reference page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 17
+#line 35
  testRunner.Then("I should see that the table tag is supported in \"Chrome\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 18
+#line 36
  testRunner.And("I should see that the table tag is supported in \"IE\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 19
+#line 37
  testRunner.And("I should see that the table tag is supported in \"FireFox\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 20
+#line 38
  testRunner.And("I should see that the table tag is supported in \"Safari\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -117,13 +156,13 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("I want to demonstrate how to use the property bucket", new string[] {
                         "property_bucket"});
-#line 23
+#line 41
 this.ScenarioSetup(scenarioInfo);
-#line 24
+#line 42
  testRunner.Given("I navigate to W3Schools table reference page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 25
+#line 43
  testRunner.And("I remember the sub-header text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 26
+#line 44
  testRunner.Then("the sub-header text should have been \"THE WORLD\'S LARGEST WEB DEVELOPER SITE\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -138,15 +177,15 @@ this.ScenarioSetup(scenarioInfo);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Performing a search for SpecFlow and expecting random text should fail and give m" +
                     "e a screenshot", new string[] {
                         "ignore"});
-#line 29
+#line 47
 this.ScenarioSetup(scenarioInfo);
-#line 30
+#line 48
  testRunner.Given("I navigate to Google", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 31
+#line 49
  testRunner.And("I enter a search value of \"SpecFlow\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 32
+#line 50
  testRunner.When("I press Google Search", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 33
+#line 51
  testRunner.Then("I should see \"ZZZXXXYYYGGGJJJPPPP\" in the results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -168,16 +207,16 @@ this.ScenarioSetup(scenarioInfo);
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("I want to demonstrate how to use SpecFlow data tables", @__tags);
-#line 36
+#line 54
 this.ScenarioSetup(scenarioInfo);
-#line 37
+#line 55
  testRunner.Given("I navigate to W3Schools table reference page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "Browser"});
             table1.AddRow(new string[] {
                         string.Format("{0}", browser)});
-#line 38
+#line 56
  testRunner.Then("I should see that the table tag is supported for the following", ((string)(null)), table1, "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -190,13 +229,13 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("I want to demonstrate how to wait for a button to appear", new string[] {
                         "browser_session_extension"});
-#line 49
+#line 67
 this.ScenarioSetup(scenarioInfo);
-#line 50
+#line 68
  testRunner.Given("I create a delayed button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 51
+#line 69
  testRunner.Then("the delayed button should eventually exist", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 52
+#line 70
   testRunner.And("the delayed button has a size and location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -209,13 +248,13 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("I want to demonstrate how to try until a button appears", new string[] {
                         "browser_session_extension"});
-#line 55
+#line 73
 this.ScenarioSetup(scenarioInfo);
-#line 56
+#line 74
  testRunner.Given("I create a button that creates a delayed button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 57
+#line 75
  testRunner.When("I use TryUntil on the button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 58
+#line 76
  testRunner.Then("the second button should exist", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -228,11 +267,11 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("WaitForNavigation does timeout", new string[] {
                         "browser_session_extension"});
-#line 61
+#line 79
 this.ScenarioSetup(scenarioInfo);
-#line 62
+#line 80
  testRunner.Given("I try to navigate to a url that changes the browser location", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 63
+#line 81
  testRunner.Then("navigation does timeout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -245,11 +284,11 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("WaitForNavigation does not timeout", new string[] {
                         "browser_session_extension"});
-#line 66
+#line 84
 this.ScenarioSetup(scenarioInfo);
-#line 67
+#line 85
  testRunner.Given("I try to navigate to Google", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 68
+#line 86
  testRunner.Then("navigation does not timeout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
