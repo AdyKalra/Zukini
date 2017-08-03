@@ -111,6 +111,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Features\ToDoMVC.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ToDoMVC.feature</DependentUpon>
+    </Compile>
     <Compile Include="Hooks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\ClaimView\LoginSteps.cs" />
@@ -135,6 +140,10 @@
     <None Include="Features\SmokeTest.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SmokeTest.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\ToDoMVC.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ToDoMVC.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config">
       <SubType>Designer</SubType>
