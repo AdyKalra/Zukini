@@ -111,7 +111,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Features\ToDoMVC.feature.cs">
+    <Compile Include="Features\ToDoMVC\ToDoMVC.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ToDoMVC.feature</DependentUpon>
@@ -141,7 +141,7 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SmokeTest.feature.cs</LastGenOutput>
     </None>
-    <None Include="Features\ToDoMVC.feature">
+    <None Include="Features\ToDoMVC\ToDoMVC.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ToDoMVC.feature.cs</LastGenOutput>
     </None>
