@@ -160,6 +160,66 @@ namespace Zukini.UI.Examples.Features.Steps
             }
         }
 
+        [Given(@"I Launch the Google Search Page")]
+        public void GivenILaunchTheGoogleSearchPage()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Given(@"I search for Sapient Global Markets")]
+        public void GivenISearchForSapientGlobalMarkets()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [When(@"I Click the (.*) Search Result")]
+        public void WhenIClickTheSearchResult(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Then(@"Validate Sapient Global Markets Page is opened")]
+        public void ThenValidateSapientGlobalMarketsPageIsOpened()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [When(@"I Click the Contact Menu")]
+        public void WhenIClickTheContactMenu()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [When(@"I Scroll down")]
+        public void WhenIScrollDown()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [When(@"I Select Bengaluru Location")]
+        public void WhenISelectBengaluruLocation()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Then(@"Validate Phone Number is \+(.*) \((.*)\) (.*)")]
+        public void ThenValidatePhoneNumberIs(int p0, int p1, string p2)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Then(@"Validate Fax Number is \+(.*) \((.*)\) (.*)")]
+        public void ThenValidateFaxNumberIs(int p0, int p1, string p2)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Then(@"Validate Email is info@sapient\.com")]
+        public void ThenValidateEmailIsInfoSapient_Com()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
         private bool NavigationTimedOut(string url)
         {
             try
