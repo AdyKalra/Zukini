@@ -1,15 +1,30 @@
-﻿using System;
+﻿using BoDi;
+using Coypu;
+using NUnit.Framework;
+using System;
+using System.Linq;
 using TechTalk.SpecFlow;
+using Zukini.UI.Examples.Pages;
+using Zukini.UI.Steps;
 
 namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
 {
     [Binding]
-    public class ToDoMVCSteps
+    [Parallelizable(ParallelScope.Fixtures)]
+    public class ToDoMVCSteps : UiSteps
     {
+        private readonly SessionConfiguration _sessionConfiguration;
+
+        public ToDoMVCSteps(IObjectContainer objectContainer, SessionConfiguration sessionConfiguration)
+            : base(objectContainer)
+        {
+            _sessionConfiguration = sessionConfiguration;
+        }
+
         [Given(@"I am on AngularJS page")]
         public void GivenIAmOnAngularJSPage()
         {
-            ScenarioContext.Current.Pending();
+            Browser.WaitForNavigation(_sessionConfiguration, TestSettings.GoogleUrl);
         }
         
         [When(@"I choose to add ToDo Item")]
