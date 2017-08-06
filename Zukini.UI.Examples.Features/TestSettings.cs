@@ -10,6 +10,7 @@ namespace Zukini.UI.Examples.Features
     {
         public static string ClaimViewUrl => ConfigurationManager.AppSettings["ClaimViewUrl"];
         public static string GoogleUrl => ConfigurationManager.AppSettings["GoogleUrl"];
+        public static string ToDoMVCUrl => ConfigurationManager.AppSettings["ToDoMVCUrl"];
         public static string GoogleHttpUrl => ConfigurationManager.AppSettings["GoogleHttpUrl"];
         public static string W3SchoolsBaseUrl => ConfigurationManager.AppSettings["W3SchoolsBaseUrl"];
         public static string JsonPlaceholderApiUrl => ConfigurationManager.AppSettings["JsonPlaceholderApiUrl"];

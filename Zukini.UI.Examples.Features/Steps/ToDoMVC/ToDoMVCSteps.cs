@@ -24,7 +24,7 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         [Given(@"I am on AngularJS page")]
         public void GivenIAmOnAngularJSPage()
         {
-            Browser.WaitForNavigation(_sessionConfiguration, TestSettings.GoogleUrl);
+            Browser.WaitForNavigation(_sessionConfiguration, TestSettings.ToDoMVCUrl);
         }
         
         [When(@"I choose to add ToDo Item")]

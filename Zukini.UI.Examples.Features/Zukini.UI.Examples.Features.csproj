@@ -121,6 +121,7 @@
     <Compile Include="Steps\ClaimView\LoginSteps.cs" />
     <Compile Include="Steps\SeleniumGrid.cs" />
     <Compile Include="Steps\SmokeTestSteps.cs" />
+    <Compile Include="Steps\ToDoMVC\ToDoMVCSteps.cs" />
     <Compile Include="TestSettings.cs" />
   </ItemGroup>
   <ItemGroup>
