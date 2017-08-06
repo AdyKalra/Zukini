@@ -4,7 +4,7 @@ using NUnit.Framework;
 using System;
 using System.Linq;
 using TechTalk.SpecFlow;
-using Zukini.UI.Examples.Pages;
+using Zukini.UI.Examples.Pages.ToDoMVC;
 using Zukini.UI.Steps;
 
 namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
@@ -25,6 +25,9 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         public void GivenIAmOnAngularJSPage()
         {
             Browser.WaitForNavigation(_sessionConfiguration, TestSettings.ToDoMVCUrl);
+            //_givepage.Clickangularjs();
+            new ToDoMVCPage(Browser).SearchButton.Click();
+            //Assert.IsTrue(_givepage.ConfirmAngularpage());
         }
         
         [When(@"I choose to add ToDo Item")]

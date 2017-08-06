@@ -14,5 +14,6 @@ namespace Zukini.UI.Examples.Pages
         public static string W3SchoolsBaseUrl => ConfigurationManager.AppSettings["W3SchoolsBaseUrl"];
         public static string JsonPlaceholderApiUrl => ConfigurationManager.AppSettings["JsonPlaceholderApiUrl"];
         public static string GridUrl => ConfigurationManager.AppSettings["GridUrl"];
+        public static string ToDoMVCUrl => ConfigurationManager.AppSettings["ToDoMVCUrl"];
     }
 }
