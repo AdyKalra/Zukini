@@ -13,5 +13,12 @@ namespace Zukini.UI.Examples.Pages.ToDoMVC
             _browser = browser;
             _browser.WaitForNavigation(sessionConfiguration, PageSettings.ToDoMVCUrl);
         }
+
+        public ElementScope AngularPageLink => _browser.FindXPath("//a[@href='examples/angularjs']");
+
+        public void ClickAngularPageLink()
+        {
+            AngularPageLink.Click();
+        }
     }
 }

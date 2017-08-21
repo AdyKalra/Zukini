@@ -14,6 +14,7 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
     public class ToDoMVCSteps : UiSteps
     {
         private readonly SessionConfiguration _sessionConfiguration;
+        private ToDoMVCPage _todomvcpage;
 
         public ToDoMVCSteps(IObjectContainer objectContainer, SessionConfiguration sessionConfiguration)
             : base(objectContainer)
@@ -26,7 +27,8 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         {
             Browser.WaitForNavigation(_sessionConfiguration, TestSettings.ToDoMVCUrl);
             //_givepage.Clickangularjs();
-            new ToDoMVCPage(Browser).SearchButton.Click();
+            _todomvcpage = new ToDoMVCPage(_sessionConfiguration, Browser);
+            _todomvcpage.ClickAngularPageLink();
             //Assert.IsTrue(_givepage.ConfirmAngularpage());
         }
         
