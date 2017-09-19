@@ -26,10 +26,9 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         public void GivenIAmOnAngularJSPage()
         {
             Browser.WaitForNavigation(_sessionConfiguration, TestSettings.ToDoMVCUrl);
-            //_givepage.Clickangularjs();
             _todomvcpage = new ToDoMVCPage(_sessionConfiguration, Browser);
             _todomvcpage.ClickAngularPageLink();
-            //Assert.IsTrue(_givepage.ConfirmAngularpage());
+            Assert.IsTrue(_todomvcpage.ConfirmAngularpage());
         }
         
         [When(@"I choose to add ToDo Item")]

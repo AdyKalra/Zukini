@@ -15,10 +15,17 @@ namespace Zukini.UI.Examples.Pages.ToDoMVC
         }
 
         public ElementScope AngularPageLink => _browser.FindXPath("//a[@href='examples/angularjs']");
+        public ElementScope ToDoItem => _browser.FindField("ng-binding");
+        
 
         public void ClickAngularPageLink()
         {
             AngularPageLink.Click();
+        }
+
+        public bool ConfirmAngularpage()
+        {
+            return ToDoItem.Exists();
         }
     }
 }
