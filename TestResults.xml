@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="33" result="Failed" total="33" passed="13" failed="19" inconclusive="0" skipped="1" asserts="37" engine-version="3.6.1.0" clr-version="4.0.30319.42000" start-time="2017-09-18 23:36:41Z" end-time="2017-09-18 23:39:35Z" duration="174.000181">
-  <command-line><![CDATA[C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit3-console.exe  /labels:ON /out:C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\TestOutput.txt /result:C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\TestResults.xml;format=nunit3 C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.nunit]]></command-line>
-  <test-suite type="Assembly" id="3-1031" name="Zukini.UI.Examples.Features.dll" fullname="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\bin\Debug\Zukini.UI.Examples.Features.dll" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="108.294466" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
-    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10240.0" platform="Win32NT" cwd="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master" machine-name="WGTLAP2201" user="Ady.Kalra" user-domain="WGTECH" culture="en-US" uiculture="en-US" os-architecture="x64" />
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="33" result="Failed" total="33" passed="13" failed="19" inconclusive="0" skipped="1" asserts="37" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-09-19 00:10:00Z" end-time="2017-09-19 00:13:04Z" duration="184.456877">
+  <command-line><![CDATA[C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe  /labels:ON /out:C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\TestOutput.txt /result:C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\TestResults.xml;format=nunit3 C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.nunit]]></command-line>
+  <test-suite type="Assembly" id="3-1031" name="Zukini.UI.Examples.Features.dll" fullname="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\bin\Debug\Zukini.UI.Examples.Features.dll" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:58Z" duration="117.665703" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
+    <environment framework-version="3.8.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10240.0" platform="Win32NT" cwd="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master" machine-name="WGTLAP2201" user="Ady.Kalra" user-domain="WGTECH" culture="en-US" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="DisposeRunners" value="True" />
       <setting name="WorkDirectory" value="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master" />
@@ -16,55 +16,55 @@
     <properties>
       <property name="LevelOfParallelism" value="4" />
       <property name="ParallelScope" value="Fixtures" />
-      <property name="_PID" value="6252" />
+      <property name="_PID" value="17284" />
       <property name="_APPDOMAIN" value="domain-7d1bdafe-Zukini.UI.Examples.Features.dll" />
     </properties>
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="TestSuite" id="3-1032" name="Zukini" fullname="Zukini" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="108.270683" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
+    <test-suite type="TestSuite" id="3-1032" name="Zukini" fullname="Zukini" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:58Z" duration="117.644110" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
       <failure>
         <message><![CDATA[One or more child tests had errors]]></message>
       </failure>
-      <test-suite type="TestSuite" id="3-1033" name="UI" fullname="Zukini.UI" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="108.266097" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
+      <test-suite type="TestSuite" id="3-1033" name="UI" fullname="Zukini.UI" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:58Z" duration="117.643116" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
         <failure>
           <message><![CDATA[One or more child tests had errors]]></message>
         </failure>
-        <test-suite type="TestSuite" id="3-1034" name="Examples" fullname="Zukini.UI.Examples" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="108.262633" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
+        <test-suite type="TestSuite" id="3-1034" name="Examples" fullname="Zukini.UI.Examples" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:58Z" duration="117.641855" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
           <failure>
             <message><![CDATA[One or more child tests had errors]]></message>
           </failure>
-          <test-suite type="TestSuite" id="3-1035" name="Features" fullname="Zukini.UI.Examples.Features" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="108.259079" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
+          <test-suite type="TestSuite" id="3-1035" name="Features" fullname="Zukini.UI.Examples.Features" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:58Z" duration="117.641329" total="25" passed="8" failed="16" warnings="0" inconclusive="0" skipped="1" asserts="23">
             <failure>
               <message><![CDATA[One or more child tests had errors]]></message>
             </failure>
-            <test-suite type="TestSuite" id="3-1036" name="Steps" fullname="Zukini.UI.Examples.Features.Steps" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:36:42Z" duration="0.026943" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <test-suite type="TestSuite" id="3-1036" name="Steps" fullname="Zukini.UI.Examples.Features.Steps" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:10:01Z" duration="0.031563" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
               <failure>
                 <message><![CDATA[One or more child tests had errors]]></message>
               </failure>
-              <test-suite type="TestFixture" id="3-1000" name="SeleniumGrid" fullname="Zukini.UI.Examples.Features.Steps.SeleniumGrid" classname="Zukini.UI.Examples.Features.Steps.SeleniumGrid" runstate="NotRunnable" testcasecount="1" result="Failed" label="Invalid" site="SetUp" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:36:42Z" duration="0.017717" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <test-suite type="TestFixture" id="3-1000" name="SeleniumGrid" fullname="Zukini.UI.Examples.Features.Steps.SeleniumGrid" classname="Zukini.UI.Examples.Features.Steps.SeleniumGrid" runstate="NotRunnable" testcasecount="1" result="Failed" label="Invalid" site="SetUp" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:10:01Z" duration="0.021198" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
                 <properties>
                   <property name="_SKIPREASON" value="No suitable constructor was found" />
                 </properties>
                 <failure>
                   <message><![CDATA[No suitable constructor was found]]></message>
                 </failure>
-                <test-case id="3-1001" name="GoogleForSeleniumOnGrid" fullname="Zukini.UI.Examples.Features.Steps.SeleniumGrid.GoogleForSeleniumOnGrid" methodname="GoogleForSeleniumOnGrid" classname="Zukini.UI.Examples.Features.Steps.SeleniumGrid" runstate="Runnable" seed="1594726005" result="Failed" label="Invalid" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+                <test-case id="3-1001" name="GoogleForSeleniumOnGrid" fullname="Zukini.UI.Examples.Features.Steps.SeleniumGrid.GoogleForSeleniumOnGrid" methodname="GoogleForSeleniumOnGrid" classname="Zukini.UI.Examples.Features.Steps.SeleniumGrid" runstate="Runnable" seed="1738563815" result="Failed" label="Invalid" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
                   <failure>
                     <message><![CDATA[OneTimeSetUp: No suitable constructor was found]]></message>
                   </failure>
                 </test-case>
               </test-suite>
             </test-suite>
-            <test-suite type="TestSuite" id="3-1037" name="Features" fullname="Zukini.UI.Examples.Features.Features" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="108.255641" total="24" passed="8" failed="15" warnings="0" inconclusive="0" skipped="1" asserts="23">
+            <test-suite type="TestSuite" id="3-1037" name="Features" fullname="Zukini.UI.Examples.Features.Features" runstate="Runnable" testcasecount="24" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:58Z" duration="117.641002" total="24" passed="8" failed="15" warnings="0" inconclusive="0" skipped="1" asserts="23">
               <failure>
                 <message><![CDATA[One or more child tests had errors]]></message>
               </failure>
-              <test-suite type="TestSuite" id="3-1039" name="ClaimView" fullname="Zukini.UI.Examples.Features.Features.ClaimView" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:37:01Z" duration="19.143991" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <test-suite type="TestSuite" id="3-1039" name="ClaimView" fullname="Zukini.UI.Examples.Features.Features.ClaimView" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:10:20Z" duration="19.403249" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
                 <failure>
                   <message><![CDATA[One or more child tests had errors]]></message>
                 </failure>
-                <test-suite type="TestFixture" id="3-1028" name="LoginFeature" fullname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" classname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:37:01Z" duration="19.140686" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                <test-suite type="TestFixture" id="3-1028" name="LoginFeature" fullname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" classname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:10:20Z" duration="19.403186" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
                   <properties>
                     <property name="Description" value="Login" />
                     <property name="Category" value="login" />
@@ -72,7 +72,7 @@
                   <failure>
                     <message><![CDATA[One or more child tests had errors]]></message>
                   </failure>
-                  <test-case id="3-1030" name="FailedLoginDueToIncorrectUsernameOrPassword" fullname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.FailedLoginDueToIncorrectUsernameOrPassword" methodname="FailedLoginDueToIncorrectUsernameOrPassword" classname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" runstate="Runnable" seed="1940585004" result="Failed" label="Error" start-time="2017-09-18 23:36:43Z" end-time="2017-09-18 23:36:53Z" duration="9.924554" asserts="0">
+                  <test-case id="3-1030" name="FailedLoginDueToIncorrectUsernameOrPassword" fullname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.FailedLoginDueToIncorrectUsernameOrPassword" methodname="FailedLoginDueToIncorrectUsernameOrPassword" classname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" runstate="Runnable" seed="2076810202" result="Failed" label="Error" start-time="2017-09-19 00:10:02Z" end-time="2017-09-19 00:10:12Z" duration="10.521551" asserts="0">
                     <properties>
                       <property name="Description" value="Failed login due to incorrect username or password" />
                       <property name="Category" value="claimview" />
@@ -87,16 +87,204 @@
    at Zukini.UI.Examples.Features.Steps.ClaimView.LoginSteps.WhenIFillInTheFollowingForm(Table table) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ClaimView\LoginSteps.cs:line 33
    at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
    at Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.ScenarioCleanup()
    at Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.FailedLoginDueToIncorrectUsernameOrPassword() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ClaimView\Login.feature:line 23]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093650_b5ce8
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Failedloginduetoincorrectusernameorpassword_20170919_093650_b5ce8.png
+                    <output><![CDATA[Unique Test Id: 20170919_101009_28c74
+#11: Given I am at the login page
+#10: Given I am on AngularJS page
+#12: Given I create a button that creates a delayed button
+-> #12: done: SmokeTestSteps.GivenICreateAButtonThatCreatesADelayedButton() (0.1s)
+#12: When I use TryUntil on the button
+-> #11: done: LoginSteps.GivenIAmAtTheLoginPage() (0.9s)
+#11: When I fill in the following form
+  --- table step argument ---
+  | field    | value    |
+  | Email    | xtrumanx |
+  | Password | P@55w0Rd |
+-> #12: error: Unable to find button: button1
+#12: Then the second button should exist
+-> #12: skipped because of previous errors
+-> #11: error: Unable to find xpath: .//input[@name='Email']
+#11: And I click the login button
+-> #11: skipped because of previous errors
+#11: Then I should see "User name or password incorrect."
+-> #11: skipped because of previous errors
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Failedloginduetoincorrectusernameorpassword_20170919_101009_28c74.png
+#12: Given I navigate to W3Schools table reference page
+#11: Given I am at the login page
+-> #11: done: LoginSteps.GivenIAmAtTheLoginPage() (0.8s)
+#11: When I fill in the following form
+  --- table step argument ---
+  | field    | value                          |
+  | Email    | matias.alfonso@jbknowledge.com |
+  | Password | Maipu671                       |
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to add second ToDO Item
+-> #10: skipped because of previous errors
+#10: Then Item should be displayed
+-> #10: skipped because of previous errors
+-> #11: error: Unable to find xpath: .//input[@name='Email']
+#11: And I click the login button
+-> #11: skipped because of previous errors
+#11: Then I should be at the Verification Page
+-> #11: skipped because of previous errors
+-> #12: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (6.1s)
+#12: Then I should see that the table tag is supported for the following
+  --- table step argument ---
+  | Browser |
+  | Chrome  |
+-> #12: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedForTheFollowing(<table>) (0.4s)
+#10: Given I am on AngularJS page
+#12: Given I navigate to W3Schools table reference page
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to add ToDo Item
+-> #10: skipped because of previous errors
+#10: Then Item should be displayed
+-> #10: skipped because of previous errors
+-> #12: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (3.2s)
+#12: Then I should see that the table tag is supported for the following
+  --- table step argument ---
+  | Browser                  |
+  | Internet Explorer / Edge |
+-> #12: error: Invalid browser name Internet Explorer / Edge supplied.
+#10: Given I am on AngularJS page
+#12: Given I navigate to W3Schools table reference page
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to click the Clear Completed button
+-> #10: skipped because of previous errors
+#10: Then All completed ToDo items should be cleared
+-> #10: skipped because of previous errors
+-> #12: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (4.3s)
+#12: Then I should see that the table tag is supported for the following
+  --- table step argument ---
+  | Browser |
+  | FireFox |
+-> #12: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedForTheFollowing(<table>) (0.5s)
+#10: Given I am on AngularJS page
+#12: Given I navigate to W3Schools table reference page
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to click the close icon of first ToDo Item
+-> #10: skipped because of previous errors
+#10: Then First ToDoItem should be cleared
+-> #10: skipped because of previous errors
+-> #12: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (5.0s)
+#12: Then I should see that the table tag is supported for the following
+  --- table step argument ---
+  | Browser |
+  | Safari  |
+-> #12: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedForTheFollowing(<table>) (0.4s)
+#10: Given I am on AngularJS page
+#12: Given I navigate to W3Schools table reference page
+-> #12: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (4.9s)
+#12: And I remember the sub-header text
+-> #12: done: SmokeTestSteps.GivenIRememberTheSubHeaderText() (0.1s)
+#12: Then the sub-header text should have been "THE WORLD'S LARGEST WEB DEVELOPER SITE"
+-> #12: done: SmokeTestSteps.ThenTheSubHeaderTextShouldHaveBeen("THE WORLD'S LARGE...") (0.0s)
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to complete an Item
+-> #10: skipped because of previous errors
+#10: Then Item should be marked as completed
+-> #10: skipped because of previous errors
+#12: Given I create a delayed button
+-> #12: done: SmokeTestSteps.GivenICreateADelayedButton() (0.1s)
+#12: Then the delayed button should eventually exist
+-> #12: done: SmokeTestSteps.ThenTheDelayedButtonShouldEventuallyExist() (1.1s)
+#12: And the delayed button has a size and location
+-> #12: done: SmokeTestSteps.ThenTheDelayedButtonHasASizeAndLocation() (0.1s)
+#10: Given I am on AngularJS page
+#12: Given I navigate to W3Schools table reference page
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to edit content of First Item
+-> #10: skipped because of previous errors
+#10: Then Item should be displayed
+-> #10: skipped because of previous errors
+-> #12: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (3.9s)
+#12: Then I should see that the table tag is supported in "Chrome"
+-> #12: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedIn("Chrome") (0.5s)
+#12: And I should see that the table tag is supported in "IE"
+-> #12: error: Invalid browser name IE supplied.
+#12: And I should see that the table tag is supported in "FireFox"
+-> #12: skipped because of previous errors
+#12: And I should see that the table tag is supported in "Safari"
+-> #12: skipped because of previous errors
+#10: Given I am on AngularJS page
+#12: Given I navigate to Google
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to filter by Completed Items
+-> #10: skipped because of previous errors
+#10: Then Completed Items should be displayed
+-> #10: skipped because of previous errors
+-> #12: done: SmokeTestSteps.GivenINavigateToGoogle() (2.8s)
+#12: And I enter a search value of "SpecFlow"
+-> #12: done: SmokeTestSteps.GivenIEnterASearchValueOf("SpecFlow") (0.3s)
+#12: When I press Google Search
+-> #12: done: SmokeTestSteps.WhenIPressGoogleSearch() (1.0s)
+#12: Then I should see "specflow.org" in the results
+-> #12: done: SmokeTestSteps.ThenIShouldSeeInTheResults("specflow.org") (0.5s)
+#10: Given I am on AngularJS page
+#12: Given I Launch the Google Search Page
+-> #12: error: The ScenarioContext.Current static accessor cannot be used in multi-threaded execution. Try injecting the scenario context to the binding class. See http://go.specflow.org/doc-multithreaded for details.
+#12: And I search for Sapient Global Markets
+-> #12: skipped because of previous errors
+#12: When I Click the 1 Search Result
+-> #12: skipped because of previous errors
+#12: Then Validate Sapient Global Markets Page is opened
+-> #12: skipped because of previous errors
+#12: When I Click the Contact Menu
+-> #12: skipped because of previous errors
+#12: And I Scroll down
+-> #12: skipped because of previous errors
+#12: And I Select Bengaluru Location
+-> #12: skipped because of previous errors
+#12: Then Validate Phone Number is +91 (080) 6128 0000
+-> #12: skipped because of previous errors
+#12: And Validate Fax Number is +91 (080) 6128 0001
+-> #12: skipped because of previous errors
+#12: And Validate Email is info@sapient.com
+-> #12: skipped because of previous errors
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to mark all ToDo Items as Completed
+-> #10: skipped because of previous errors
+#10: Then Item should be marked as completed
+-> #10: skipped because of previous errors
+#12: Given I try to navigate to Google
+-> #12: done: SmokeTestSteps.GivenITryToNavigateToGoogle() (1.3s)
+#12: Then navigation does not timeout
+-> #12: done: SmokeTestSteps.ThenNavigationWillTimeOut("does not") (0.0s)
+#10: Given I am on AngularJS page
+#12: Given I try to navigate to a url that changes the browser location
+-> #10: error:   Expected: True
+  But was:  False
+
+#10: When I choose to reactivate an completed Item
+-> #10: skipped because of previous errors
+#10: Then Item should be reactivated
+-> #10: skipped because of previous errors
+-> #12: done: SmokeTestSteps.GivenITryToNavigateToAUrlThatChangesTheBrowserLocation() (7.7s)
+#12: Then navigation does timeout
+-> #12: done: SmokeTestSteps.ThenNavigationWillTimeOut("does") (0.0s)
 ]]></output>
                   </test-case>
-                  <test-case id="3-1029" name="LoggingInWithValidCredentials" fullname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.LoggingInWithValidCredentials" methodname="LoggingInWithValidCredentials" classname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" runstate="Runnable" seed="1559039433" result="Failed" label="Error" start-time="2017-09-18 23:36:53Z" end-time="2017-09-18 23:37:01Z" duration="8.380945" asserts="0">
+                  <test-case id="3-1029" name="LoggingInWithValidCredentials" fullname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.LoggingInWithValidCredentials" methodname="LoggingInWithValidCredentials" classname="Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature" runstate="Runnable" seed="903296332" result="Failed" label="Error" start-time="2017-09-19 00:10:12Z" end-time="2017-09-19 00:10:20Z" duration="7.658726" asserts="0">
                     <properties>
                       <property name="Description" value="Logging in with valid credentials" />
                       <property name="Category" value="claimview" />
@@ -110,29 +298,29 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/L
    at Zukini.UI.Examples.Features.Steps.ClaimView.LoginSteps.WhenIFillInTheFollowingForm(Table table) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ClaimView\LoginSteps.cs:line 33
    at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
    at Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.ScenarioCleanup()
    at Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.LoggingInWithValidCredentials() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ClaimView\Login.feature:line 14]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093658_f2d79
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Logginginwithvalidcredentials_20170919_093658_f2d79.png
+                    <output><![CDATA[Unique Test Id: 20170919_101018_b7961
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Logginginwithvalidcredentials_20170919_101018_b7961.png
 ]]></output>
                   </test-case>
                 </test-suite>
               </test-suite>
-              <test-suite type="TestSuite" id="3-1038" name="ToDoMVC" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="107.565089" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="9">
+              <test-suite type="TestSuite" id="3-1038" name="ToDoMVC" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:54Z" duration="113.473537" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="9">
                 <failure>
                   <message><![CDATA[One or more child tests had errors]]></message>
                 </failure>
-                <test-suite type="TestFixture" id="3-1018" name="ToDoMVCFeature" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="107.560446" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="9">
+                <test-suite type="TestFixture" id="3-1018" name="ToDoMVCFeature" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:54Z" duration="113.467744" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="9">
                   <properties>
                     <property name="Description" value="ToDoMVC" />
                   </properties>
                   <failure>
                     <message><![CDATA[One or more child tests had errors]]></message>
                   </failure>
-                  <test-case id="3-1023" name="AddSecondToDoItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem" methodname="AddSecondToDoItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1138552452" result="Failed" start-time="2017-09-18 23:36:43Z" end-time="2017-09-18 23:37:00Z" duration="16.706541" asserts="1">
+                  <test-case id="3-1023" name="AddSecondToDoItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem" methodname="AddSecondToDoItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="833346324" result="Failed" start-time="2017-09-19 00:10:02Z" end-time="2017-09-19 00:10:20Z" duration="17.846974" asserts="1">
                     <properties>
                       <property name="Description" value="Add Second ToDoItem" />
                       <property name="Category" value="AddSecondItem" />
@@ -141,223 +329,35 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/L
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 31
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 31
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093649_c3152
-#12: Given I am on AngularJS page
-#11: Given I create a button that creates a delayed button
--> #11: done: SmokeTestSteps.GivenICreateAButtonThatCreatesADelayedButton() (0.0s)
-#11: When I use TryUntil on the button
-#10: Given I am at the login page
--> #10: done: LoginSteps.GivenIAmAtTheLoginPage() (0.7s)
-#10: When I fill in the following form
-  --- table step argument ---
-  | field    | value    |
-  | Email    | xtrumanx |
-  | Password | P@55w0Rd |
--> #11: error: Unable to find button: button1
-#11: Then the second button should exist
--> #11: skipped because of previous errors
--> #10: error: Unable to find xpath: .//input[@name='Email']
-#10: And I click the login button
--> #10: skipped because of previous errors
-#10: Then I should see "User name or password incorrect."
--> #10: skipped because of previous errors
-#11: Given I navigate to W3Schools table reference page
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to add second ToDO Item
--> #12: skipped because of previous errors
-#12: Then Item should be displayed
--> #12: skipped because of previous errors
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddSecondToDoItem_20170919_093649_c3152.png
-#10: Given I am at the login page
--> #10: done: LoginSteps.GivenIAmAtTheLoginPage() (1.0s)
-#10: When I fill in the following form
-  --- table step argument ---
-  | field    | value                          |
-  | Email    | matias.alfonso@jbknowledge.com |
-  | Password | Maipu671                       |
--> #10: error: Unable to find xpath: .//input[@name='Email']
-#10: And I click the login button
--> #10: skipped because of previous errors
-#10: Then I should be at the Verification Page
--> #10: skipped because of previous errors
--> #11: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (3.6s)
-#11: Then I should see that the table tag is supported for the following
-  --- table step argument ---
-  | Browser |
-  | Chrome  |
--> #11: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedForTheFollowing(<table>) (0.6s)
-#12: Given I am on AngularJS page
-#11: Given I navigate to W3Schools table reference page
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to add ToDo Item
--> #12: skipped because of previous errors
-#12: Then Item should be displayed
--> #12: skipped because of previous errors
--> #11: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (3.5s)
-#11: Then I should see that the table tag is supported for the following
-  --- table step argument ---
-  | Browser                  |
-  | Internet Explorer / Edge |
--> #11: error: Invalid browser name Internet Explorer / Edge supplied.
-#11: Given I navigate to W3Schools table reference page
-#12: Given I am on AngularJS page
--> #11: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (3.9s)
-#11: Then I should see that the table tag is supported for the following
-  --- table step argument ---
-  | Browser |
-  | FireFox |
--> #11: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedForTheFollowing(<table>) (0.4s)
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to click the Clear Completed button
--> #12: skipped because of previous errors
-#12: Then All completed ToDo items should be cleared
--> #12: skipped because of previous errors
-#11: Given I navigate to W3Schools table reference page
-#12: Given I am on AngularJS page
--> #11: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (4.1s)
-#11: Then I should see that the table tag is supported for the following
-  --- table step argument ---
-  | Browser |
-  | Safari  |
--> #11: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedForTheFollowing(<table>) (0.5s)
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to click the close icon of first ToDo Item
--> #12: skipped because of previous errors
-#12: Then First ToDoItem should be cleared
--> #12: skipped because of previous errors
-#11: Given I navigate to W3Schools table reference page
--> #11: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (3.7s)
-#11: And I remember the sub-header text
--> #11: done: SmokeTestSteps.GivenIRememberTheSubHeaderText() (0.1s)
-#11: Then the sub-header text should have been "THE WORLD'S LARGEST WEB DEVELOPER SITE"
--> #11: done: SmokeTestSteps.ThenTheSubHeaderTextShouldHaveBeen("THE WORLD'S LARGE...") (0.0s)
-#12: Given I am on AngularJS page
-#11: Given I create a delayed button
--> #11: done: SmokeTestSteps.GivenICreateADelayedButton() (0.0s)
-#11: Then the delayed button should eventually exist
--> #11: done: SmokeTestSteps.ThenTheDelayedButtonShouldEventuallyExist() (1.1s)
-#11: And the delayed button has a size and location
--> #11: done: SmokeTestSteps.ThenTheDelayedButtonHasASizeAndLocation() (0.1s)
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to complete an Item
--> #12: skipped because of previous errors
-#12: Then Item should be marked as completed
--> #12: skipped because of previous errors
-#11: Given I navigate to W3Schools table reference page
-#12: Given I am on AngularJS page
--> #11: done: SmokeTestSteps.GivenINavigateToWSchoolsTableReferencePage() (6.3s)
-#11: Then I should see that the table tag is supported in "Chrome"
--> #11: done: SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedIn("Chrome") (0.3s)
-#11: And I should see that the table tag is supported in "IE"
--> #11: error: Invalid browser name IE supplied.
-#11: And I should see that the table tag is supported in "FireFox"
--> #11: skipped because of previous errors
-#11: And I should see that the table tag is supported in "Safari"
--> #11: skipped because of previous errors
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to edit content of First Item
--> #12: skipped because of previous errors
-#12: Then Item should be displayed
--> #12: skipped because of previous errors
-#11: Given I navigate to Google
-#12: Given I am on AngularJS page
--> #11: done: SmokeTestSteps.GivenINavigateToGoogle() (2.4s)
-#11: And I enter a search value of "SpecFlow"
--> #11: done: SmokeTestSteps.GivenIEnterASearchValueOf("SpecFlow") (0.3s)
-#11: When I press Google Search
--> #11: done: SmokeTestSteps.WhenIPressGoogleSearch() (1.0s)
-#11: Then I should see "specflow.org" in the results
--> #11: done: SmokeTestSteps.ThenIShouldSeeInTheResults("specflow.org") (0.5s)
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to filter by Completed Items
--> #12: skipped because of previous errors
-#12: Then Completed Items should be displayed
--> #12: skipped because of previous errors
-#11: Given I Launch the Google Search Page
--> #11: error: The ScenarioContext.Current static accessor cannot be used in multi-threaded execution. Try injecting the scenario context to the binding class. See http://go.specflow.org/doc-multithreaded for details.
-#11: And I search for Sapient Global Markets
--> #11: skipped because of previous errors
-#11: When I Click the 1 Search Result
--> #11: skipped because of previous errors
-#11: Then Validate Sapient Global Markets Page is opened
--> #11: skipped because of previous errors
-#11: When I Click the Contact Menu
--> #11: skipped because of previous errors
-#11: And I Scroll down
--> #11: skipped because of previous errors
-#11: And I Select Bengaluru Location
--> #11: skipped because of previous errors
-#11: Then Validate Phone Number is +91 (080) 6128 0000
--> #11: skipped because of previous errors
-#11: And Validate Fax Number is +91 (080) 6128 0001
--> #11: skipped because of previous errors
-#11: And Validate Email is info@sapient.com
--> #11: skipped because of previous errors
-#12: Given I am on AngularJS page
-#11: Given I try to navigate to Google
--> #11: done: SmokeTestSteps.GivenITryToNavigateToGoogle() (1.3s)
-#11: Then navigation does not timeout
--> #11: done: SmokeTestSteps.ThenNavigationWillTimeOut("does not") (0.0s)
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to mark all ToDo Items as Completed
--> #12: skipped because of previous errors
-#12: Then Item should be marked as completed
--> #12: skipped because of previous errors
-#11: Given I try to navigate to a url that changes the browser location
-#12: Given I am on AngularJS page
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to reactivate an completed Item
--> #12: skipped because of previous errors
-#12: Then Item should be reactivated
--> #12: skipped because of previous errors
--> #11: done: SmokeTestSteps.GivenITryToNavigateToAUrlThatChangesTheBrowserLocation() (7.3s)
-#11: Then navigation does timeout
--> #11: done: SmokeTestSteps.ThenNavigationWillTimeOut("does") (0.0s)
+                    <output><![CDATA[Unique Test Id: 20170919_101009_1b397
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddSecondToDoItem_20170919_101009_1b397.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 31
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 31
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1019" name="AddToDoItems" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems" methodname="AddToDoItems" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1367912780" result="Failed" start-time="2017-09-18 23:37:00Z" end-time="2017-09-18 23:37:10Z" duration="10.452759" asserts="1">
+                  <test-case id="3-1019" name="AddToDoItems" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems" methodname="AddToDoItems" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="2111346074" result="Failed" start-time="2017-09-19 00:10:20Z" end-time="2017-09-19 00:10:31Z" duration="10.914407" asserts="1">
                     <properties>
                       <property name="Description" value="Add ToDoItems" />
                       <property name="Category" value="Additem" />
@@ -366,35 +366,35 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 7
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 7
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093704_4dcbb
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddToDoItems_20170919_093704_4dcbb.png
+                    <output><![CDATA[Unique Test Id: 20170919_101024_d6e93
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddToDoItems_20170919_101024_d6e93.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 7
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 7
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1027" name="ClearClosedToDoItemByClickingClearCompletedButton" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoItemByClickingClearCompletedButton" methodname="ClearClosedToDoItemByClickingClearCompletedButton" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1151694151" result="Failed" start-time="2017-09-18 23:37:10Z" end-time="2017-09-18 23:37:24Z" duration="13.567838" asserts="1">
+                  <test-case id="3-1027" name="ClearClosedToDoItemByClickingClearCompletedButton" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoItemByClickingClearCompletedButton" methodname="ClearClosedToDoItemByClickingClearCompletedButton" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1079529299" result="Failed" start-time="2017-09-19 00:10:31Z" end-time="2017-09-19 00:10:41Z" duration="10.443845" asserts="1">
                     <properties>
                       <property name="Description" value="Clear Closed ToDo Item by clicking Clear Completed Button" />
                       <property name="Category" value="ClearCompletedItemCompletely" />
@@ -403,35 +403,35 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems() in
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoItemByClickingClearCompletedButton() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 55
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoItemByClickingClearCompletedButton() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 55
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093717_969dd
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearClosedToDoItembyclickingClearCompletedButton_20170919_093717_969dd.png
+                    <output><![CDATA[Unique Test Id: 20170919_101036_a280e
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearClosedToDoItembyclickingClearCompletedButton_20170919_101036_a280e.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoItemByClickingClearCompletedButton() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 55
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoItemByClickingClearCompletedButton() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 55
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1026" name="ClearToDoItemCompletelyByClickingCloseIcon" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemCompletelyByClickingCloseIcon" methodname="ClearToDoItemCompletelyByClickingCloseIcon" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="800669550" result="Failed" start-time="2017-09-18 23:37:24Z" end-time="2017-09-18 23:37:35Z" duration="10.897152" asserts="1">
+                  <test-case id="3-1026" name="ClearToDoItemCompletelyByClickingCloseIcon" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemCompletelyByClickingCloseIcon" methodname="ClearToDoItemCompletelyByClickingCloseIcon" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1224664677" result="Failed" start-time="2017-09-19 00:10:41Z" end-time="2017-09-19 00:10:51Z" duration="10.417614" asserts="1">
                     <properties>
                       <property name="Description" value="Clear ToDo Item Completely by clicking close icon" />
                       <property name="Category" value="ClearToDoItemCompletelybyCloseIcon" />
@@ -440,35 +440,35 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoIt
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemCompletelyByClickingCloseIcon() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 49
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemCompletelyByClickingCloseIcon() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 49
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093729_80e44
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearToDoItemCompletelybyclickingcloseicon_20170919_093729_80e44.png
+                    <output><![CDATA[Unique Test Id: 20170919_101046_c4dd2
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearToDoItemCompletelybyclickingcloseicon_20170919_101046_c4dd2.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemCompletelyByClickingCloseIcon() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 49
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemCompletelyByClickingCloseIcon() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 49
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1021" name="CompleteFirstItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem" methodname="CompleteFirstItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1516506788" result="Failed" start-time="2017-09-18 23:37:35Z" end-time="2017-09-18 23:37:46Z" duration="10.999962" asserts="1">
+                  <test-case id="3-1021" name="CompleteFirstItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem" methodname="CompleteFirstItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="2072771639" result="Failed" start-time="2017-09-19 00:10:51Z" end-time="2017-09-19 00:11:04Z" duration="12.714241" asserts="1">
                     <properties>
                       <property name="Description" value="Complete First Item" />
                       <property name="Category" value="CompleteItem" />
@@ -477,35 +477,35 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemComp
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 19
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 19
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093740_b1648
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_CompleteFirstItem_20170919_093740_b1648.png
+                    <output><![CDATA[Unique Test Id: 20170919_101056_32218
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_CompleteFirstItem_20170919_101056_32218.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 19
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 19
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1020" name="EditContentOfFirstItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirstItem" methodname="EditContentOfFirstItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1824447580" result="Failed" start-time="2017-09-18 23:37:46Z" end-time="2017-09-18 23:37:57Z" duration="10.974684" asserts="1">
+                  <test-case id="3-1020" name="EditContentOfFirstItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirstItem" methodname="EditContentOfFirstItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1912723724" result="Failed" start-time="2017-09-19 00:11:04Z" end-time="2017-09-19 00:11:18Z" duration="13.382096" asserts="1">
                     <properties>
                       <property name="Description" value="Edit Content of First Item" />
                       <property name="Category" value="EditItem" />
@@ -514,35 +514,35 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 13
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 13
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093751_64ba7
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_EditContentofFirstItem_20170919_093751_64ba7.png
+                    <output><![CDATA[Unique Test Id: 20170919_101110_60b29
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_EditContentofFirstItem_20170919_101110_60b29.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 13
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 13
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1025" name="FilterCompletedItems" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedItems" methodname="FilterCompletedItems" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="785166023" result="Failed" start-time="2017-09-18 23:37:57Z" end-time="2017-09-18 23:38:07Z" duration="10.924291" asserts="1">
+                  <test-case id="3-1025" name="FilterCompletedItems" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedItems" methodname="FilterCompletedItems" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="769415436" result="Failed" start-time="2017-09-19 00:11:18Z" end-time="2017-09-19 00:11:31Z" duration="13.070647" asserts="1">
                     <properties>
                       <property name="Description" value="Filter Completed Items" />
                       <property name="Category" value="FilterCompletedItems" />
@@ -551,35 +551,35 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirs
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 43
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 43
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093802_7da02
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_FilterCompletedItems_20170919_093802_7da02.png
+                    <output><![CDATA[Unique Test Id: 20170919_101123_7f66e
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_FilterCompletedItems_20170919_101123_7f66e.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 43
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedItems() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 43
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1024" name="MarkAllToDoItemsAsCompleted" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsAsCompleted" methodname="MarkAllToDoItemsAsCompleted" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1517948826" result="Failed" start-time="2017-09-18 23:38:07Z" end-time="2017-09-18 23:38:19Z" duration="11.181571" asserts="1">
+                  <test-case id="3-1024" name="MarkAllToDoItemsAsCompleted" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsAsCompleted" methodname="MarkAllToDoItemsAsCompleted" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1025266853" result="Failed" start-time="2017-09-19 00:11:31Z" end-time="2017-09-19 00:11:43Z" duration="12.030197" asserts="1">
                     <properties>
                       <property name="Description" value="Mark all ToDo Items as Completed" />
                       <property name="Category" value="CompleteAllToDoItems" />
@@ -588,35 +588,35 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedIt
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsAsCompleted() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 37
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsAsCompleted() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 37
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093812_8b4cb
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_MarkallToDoItemsasCompleted_20170919_093812_8b4cb.png
+                    <output><![CDATA[Unique Test Id: 20170919_101136_f75e7
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_MarkallToDoItemsasCompleted_20170919_101136_f75e7.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsAsCompleted() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 37
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsAsCompleted() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 37
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
-                  <test-case id="3-1022" name="ReactivateFirstItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstItem" methodname="ReactivateFirstItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="556175140" result="Failed" start-time="2017-09-18 23:38:19Z" end-time="2017-09-18 23:38:30Z" duration="11.004836" asserts="1">
+                  <test-case id="3-1022" name="ReactivateFirstItem" fullname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstItem" methodname="ReactivateFirstItem" classname="Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature" runstate="Runnable" seed="1289361869" result="Failed" start-time="2017-09-19 00:11:43Z" end-time="2017-09-19 00:11:54Z" duration="11.398590" asserts="1">
                     <properties>
                       <property name="Description" value="Reactivate First Item" />
                       <property name="Category" value="ReactivateItem" />
@@ -625,37 +625,37 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsA
                       <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                      <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 25
+                      <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 25
 ]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093824_86b8b
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ReactivateFirstItem_20170919_093824_86b8b.png
+                    <output><![CDATA[Unique Test Id: 20170919_101147_021f8
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ReactivateFirstItem_20170919_101147_021f8.png
 ]]></output>
                     <assertions>
                       <assertion result="Failed">
                         <message><![CDATA[  Expected: True
   But was:  False
 ]]></message>
-                        <stack-trace><![CDATA[at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
-at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 25
+                        <stack-trace><![CDATA[   at Zukini.UI.Examples.Features.Steps.ToDoMVC.ToDoMVCSteps.GivenIAmOnAngularJSPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\ToDoMVC\ToDoMVCSteps.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ScenarioCleanup()
+   at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstItem() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\ToDoMVC\ToDoMVC.feature:line 25
 ]]></stack-trace>
                       </assertion>
                     </assertions>
                   </test-case>
                 </test-suite>
               </test-suite>
-              <test-suite type="TestFixture" id="3-1002" name="SmokeTestFeature" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2017-09-18 23:36:42Z" end-time="2017-09-18 23:38:30Z" duration="108.250442" total="13" passed="8" failed="4" warnings="0" inconclusive="0" skipped="1" asserts="14">
+              <test-suite type="TestFixture" id="3-1002" name="SmokeTestFeature" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2017-09-19 00:10:01Z" end-time="2017-09-19 00:11:58Z" duration="117.639211" total="13" passed="8" failed="4" warnings="0" inconclusive="0" skipped="1" asserts="14">
                 <properties>
                   <property name="Description" value="SmokeTest" />
                   <property name="Category" value="ui" />
@@ -663,7 +663,9 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstIt
                 <failure>
                   <message><![CDATA[One or more child tests had errors]]></message>
                 </failure>
-                <test-case id="3-1015" name="IWantToDemonstrateHowToTryUntilAButtonAppears" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToTryUntilAButtonAppears" methodname="IWantToDemonstrateHowToTryUntilAButtonAppears" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1574314116" result="Failed" label="Error" start-time="2017-09-18 23:36:43Z" end-time="2017-09-18 23:36:52Z" duration="9.002146" asserts="0">
+                <output><![CDATA[-> Using app.config
+]]></output>
+                <test-case id="3-1015" name="IWantToDemonstrateHowToTryUntilAButtonAppears" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToTryUntilAButtonAppears" methodname="IWantToDemonstrateHowToTryUntilAButtonAppears" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1738577129" result="Failed" label="Error" start-time="2017-09-19 00:10:02Z" end-time="2017-09-19 00:10:12Z" duration="10.027465" asserts="0">
                   <properties>
                     <property name="Description" value="I want to demonstrate how to try until a button appears" />
                     <property name="Category" value="browser_session_extension" />
@@ -676,16 +678,16 @@ at Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstIt
    at Zukini.UI.Examples.Features.Steps.SmokeTestSteps.WhenIUseTryUntilOnTheButton() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\SmokeTestSteps.cs:line 130
    at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.ScenarioCleanup()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToTryUntilAButtonAppears() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\SmokeTest.feature:line 76]]></stack-trace>
                   </failure>
-                  <output><![CDATA[Unique Test Id: 20170919_093650_c01e6
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttodemonstratehowtotryuntilabuttonappears_20170919_093650_c01e6.png
+                  <output><![CDATA[Unique Test Id: 20170919_101010_ad47c
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttodemonstratehowtotryuntilabuttonappears_20170919_101010_ad47c.png
 ]]></output>
                 </test-case>
-                <test-suite type="ParameterizedMethod" id="3-1013" name="IWantToDemonstrateHowToUseSpecFlowDataTables" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-09-18 23:36:52Z" end-time="2017-09-18 23:37:30Z" duration="37.826095" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+                <test-suite type="ParameterizedMethod" id="3-1013" name="IWantToDemonstrateHowToUseSpecFlowDataTables" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-09-19 00:10:12Z" end-time="2017-09-19 00:10:52Z" duration="40.149898" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
                   <properties>
                     <property name="Description" value="I want to demonstrate how to use SpecFlow data tables" />
                     <property name="Category" value="table_example" />
@@ -693,52 +695,52 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/S
                   <failure>
                     <message><![CDATA[One or more child tests had errors]]></message>
                   </failure>
-                  <test-case id="3-1009" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Chrome&quot;,System.String[])" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Chrome&quot;,System.String[])" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1933862257" result="Passed" start-time="2017-09-18 23:36:52Z" end-time="2017-09-18 23:37:01Z" duration="9.375767" asserts="1">
-                    <output><![CDATA[Unique Test Id: 20170919_093657_7c16f
+                  <test-case id="3-1009" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Chrome&quot;,null)" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Chrome&quot;,null)" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="278290897" result="Passed" start-time="2017-09-19 00:10:12Z" end-time="2017-09-19 00:10:23Z" duration="11.382840" asserts="1">
+                    <output><![CDATA[Unique Test Id: 20170919_101017_3e06a
 ]]></output>
                   </test-case>
-                  <test-case id="3-1010" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Internet Explorer / Edge&quot;,System.String[])" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Internet Explorer / Edge&quot;,System.String[])" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="818498397" result="Failed" label="Error" start-time="2017-09-18 23:37:01Z" end-time="2017-09-18 23:37:11Z" duration="9.341150" asserts="0">
+                  <test-case id="3-1010" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Internet Explorer / Edge&quot;,null)" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Internet Explorer / Edge&quot;,null)" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="892726167" result="Failed" label="Error" start-time="2017-09-19 00:10:23Z" end-time="2017-09-19 00:10:32Z" duration="8.657193" asserts="0">
                     <failure>
                       <message><![CDATA[System.Exception : Invalid browser name Internet Explorer / Edge supplied.]]></message>
                       <stack-trace><![CDATA[   at Zukini.UI.Examples.Pages.W3SchoolsTablePage.IsBrowserSupported(String browserName) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Pages\W3SchoolsTablePage.cs:line 34
    at Zukini.UI.Examples.Features.Steps.SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedForTheFollowing(Table table) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\SmokeTestSteps.cs:line 87
    at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.ScenarioCleanup()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(String browser, String[] exampleTags) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\SmokeTest.feature:line 56]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093706_df98c
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_IwanttodemonstratehowtouseSpecFlowdatatables_20170919_093706_df98c.png
+                    <output><![CDATA[Unique Test Id: 20170919_101028_4534b
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_IwanttodemonstratehowtouseSpecFlowdatatables_20170919_101028_4534b.png
 ]]></output>
                   </test-case>
-                  <test-case id="3-1011" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;FireFox&quot;,System.String[])" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;FireFox&quot;,System.String[])" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="266490278" result="Passed" start-time="2017-09-18 23:37:11Z" end-time="2017-09-18 23:37:21Z" duration="9.865690" asserts="1">
-                    <output><![CDATA[Unique Test Id: 20170919_093716_eb79e
+                  <test-case id="3-1011" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;FireFox&quot;,null)" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;FireFox&quot;,null)" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1551598411" result="Passed" start-time="2017-09-19 00:10:32Z" end-time="2017-09-19 00:10:42Z" duration="9.725957" asserts="1">
+                    <output><![CDATA[Unique Test Id: 20170919_101037_ff4df
 ]]></output>
                   </test-case>
-                  <test-case id="3-1012" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Safari&quot;,System.String[])" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Safari&quot;,System.String[])" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="685503665" result="Passed" start-time="2017-09-18 23:37:21Z" end-time="2017-09-18 23:37:30Z" duration="9.228521" asserts="1">
-                    <output><![CDATA[Unique Test Id: 20170919_093725_0301c
+                  <test-case id="3-1012" name="IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Safari&quot;,null)" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables(&quot;Safari&quot;,null)" methodname="IWantToDemonstrateHowToUseSpecFlowDataTables" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1159858707" result="Passed" start-time="2017-09-19 00:10:42Z" end-time="2017-09-19 00:10:52Z" duration="10.383410" asserts="1">
+                    <output><![CDATA[Unique Test Id: 20170919_101046_91481
 ]]></output>
                   </test-case>
                 </test-suite>
-                <test-case id="3-1007" name="IWantToDemonstrateHowToUseThePropertyBucket" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseThePropertyBucket" methodname="IWantToDemonstrateHowToUseThePropertyBucket" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1135813553" result="Passed" start-time="2017-09-18 23:37:30Z" end-time="2017-09-18 23:37:38Z" duration="8.698278" asserts="1">
+                <test-case id="3-1007" name="IWantToDemonstrateHowToUseThePropertyBucket" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseThePropertyBucket" methodname="IWantToDemonstrateHowToUseThePropertyBucket" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="502269607" result="Passed" start-time="2017-09-19 00:10:52Z" end-time="2017-09-19 00:11:02Z" duration="10.356849" asserts="1">
                   <properties>
                     <property name="Description" value="I want to demonstrate how to use the property bucket" />
                     <property name="Category" value="property_bucket" />
                   </properties>
-                  <output><![CDATA[Unique Test Id: 20170919_093734_421fe
+                  <output><![CDATA[Unique Test Id: 20170919_101057_1ba52
 ]]></output>
                 </test-case>
-                <test-case id="3-1014" name="IWantToDemonstrateHowToWaitForAButtonToAppear" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToWaitForAButtonToAppear" methodname="IWantToDemonstrateHowToWaitForAButtonToAppear" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="657878285" result="Passed" start-time="2017-09-18 23:37:38Z" end-time="2017-09-18 23:37:45Z" duration="6.178683" asserts="6">
+                <test-case id="3-1014" name="IWantToDemonstrateHowToWaitForAButtonToAppear" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToWaitForAButtonToAppear" methodname="IWantToDemonstrateHowToWaitForAButtonToAppear" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="649439341" result="Passed" start-time="2017-09-19 00:11:02Z" end-time="2017-09-19 00:11:09Z" duration="6.950853" asserts="6">
                   <properties>
                     <property name="Description" value="I want to demonstrate how to wait for a button to appear" />
                     <property name="Category" value="browser_session_extension" />
                   </properties>
-                  <output><![CDATA[Unique Test Id: 20170919_093743_3243b
+                  <output><![CDATA[Unique Test Id: 20170919_101108_79e01
 ]]></output>
                 </test-case>
-                <test-case id="3-1006" name="IWantToShowHowToUseRowAndCellHelpers" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToShowHowToUseRowAndCellHelpers" methodname="IWantToShowHowToUseRowAndCellHelpers" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="2002763933" result="Failed" label="Error" start-time="2017-09-18 23:37:45Z" end-time="2017-09-18 23:37:57Z" duration="11.890704" asserts="1">
+                <test-case id="3-1006" name="IWantToShowHowToUseRowAndCellHelpers" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToShowHowToUseRowAndCellHelpers" methodname="IWantToShowHowToUseRowAndCellHelpers" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="910387431" result="Failed" label="Error" start-time="2017-09-19 00:11:09Z" end-time="2017-09-19 00:11:21Z" duration="11.642391" asserts="1">
                   <properties>
                     <property name="Description" value="I want to show how to use row and cell helpers" />
                     <property name="Category" value="table_example" />
@@ -749,24 +751,24 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/S
    at Zukini.UI.Examples.Features.Steps.SmokeTestSteps.ThenIShouldSeeThatTheTableTagIsSupportedIn(String browserName) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\SmokeTestSteps.cs:line 59
    at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.ScenarioCleanup()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToShowHowToUseRowAndCellHelpers() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\SmokeTest.feature:line 38]]></stack-trace>
                   </failure>
-                  <output><![CDATA[Unique Test Id: 20170919_093749_be0df
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttoshowhowtouserowandcellhelpers_20170919_093749_be0df.png
+                  <output><![CDATA[Unique Test Id: 20170919_101114_9b541
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttoshowhowtouserowandcellhelpers_20170919_101114_9b541.png
 ]]></output>
                 </test-case>
-                <test-case id="3-1003" name="PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite" methodname="PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1507248041" result="Passed" start-time="2017-09-18 23:37:57Z" end-time="2017-09-18 23:38:06Z" duration="9.193515" asserts="1">
+                <test-case id="3-1003" name="PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite" methodname="PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1313387205" result="Passed" start-time="2017-09-19 00:11:21Z" end-time="2017-09-19 00:11:31Z" duration="10.269384" asserts="1">
                   <properties>
                     <property name="Description" value="Perform a google search for SpecFlow returns specflow.org site" />
                     <property name="Category" value="google_search" />
                   </properties>
-                  <output><![CDATA[Unique Test Id: 20170919_093801_7381c
+                  <output><![CDATA[Unique Test Id: 20170919_101126_24e4d
 ]]></output>
                 </test-case>
-                <test-case id="3-1008" name="PerformingASearchForSpecFlowAndExpectingRandomTextShouldFailAndGiveMeAScreenshot" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.PerformingASearchForSpecFlowAndExpectingRandomTextShouldFailAndGiveMeAScreenshot" methodname="PerformingASearchForSpecFlowAndExpectingRandomTextShouldFailAndGiveMeAScreenshot" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Ignored" seed="729958411" result="Skipped" label="Ignored" start-time="2017-09-18 23:38:06Z" end-time="2017-09-18 23:38:06Z" duration="0.001202" asserts="0">
+                <test-case id="3-1008" name="PerformingASearchForSpecFlowAndExpectingRandomTextShouldFailAndGiveMeAScreenshot" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.PerformingASearchForSpecFlowAndExpectingRandomTextShouldFailAndGiveMeAScreenshot" methodname="PerformingASearchForSpecFlowAndExpectingRandomTextShouldFailAndGiveMeAScreenshot" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Ignored" seed="1005223494" result="Skipped" label="Ignored" start-time="2017-09-19 00:11:31Z" end-time="2017-09-19 00:11:31Z" duration="0.001025" asserts="0">
                   <properties>
                     <property name="Description" value="Performing a search for SpecFlow and expecting random text should fail and give me a screenshot" />
                     <property name="_SKIPREASON" value="Ignored scenario" />
@@ -775,7 +777,7 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/S
                     <message><![CDATA[Ignored scenario]]></message>
                   </reason>
                 </test-case>
-                <test-suite type="ParameterizedMethod" id="3-1005" name="ValidateSapientContactDetails" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.ValidateSapientContactDetails" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-18 23:38:06Z" end-time="2017-09-18 23:38:11Z" duration="5.420240" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                <test-suite type="ParameterizedMethod" id="3-1005" name="ValidateSapientContactDetails" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.ValidateSapientContactDetails" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-19 00:11:31Z" end-time="2017-09-19 00:11:38Z" duration="6.549515" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
                   <properties>
                     <property name="Description" value="Validate Sapient Contact Details" />
                     <property name="Category" value="google_search" />
@@ -783,37 +785,37 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/S
                   <failure>
                     <message><![CDATA[One or more child tests had errors]]></message>
                   </failure>
-                  <test-case id="3-1004" name="ValidateSapientContactDetails(&quot;+91 (080) 6128 0000&quot;,&quot;+91 (080) 6128 0001&quot;,&quot;info@sapient.com&quot;,System.String[])" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.ValidateSapientContactDetails(&quot;+91 (080) 6128 0000&quot;,&quot;+91 (080) 6128 0001&quot;,&quot;info@sapient.com&quot;,System.String[])" methodname="ValidateSapientContactDetails" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="605603843" result="Failed" label="Error" start-time="2017-09-18 23:38:06Z" end-time="2017-09-18 23:38:11Z" duration="5.417059" asserts="0">
+                  <test-case id="3-1004" name="ValidateSapientContactDetails(&quot;+91 (080) 6128 0000&quot;,&quot;+91 (080) 6128 0001&quot;,&quot;info@sapient.com&quot;,null)" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.ValidateSapientContactDetails(&quot;+91 (080) 6128 0000&quot;,&quot;+91 (080) 6128 0001&quot;,&quot;info@sapient.com&quot;,null)" methodname="ValidateSapientContactDetails" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1000375494" result="Failed" label="Error" start-time="2017-09-19 00:11:31Z" end-time="2017-09-19 00:11:38Z" duration="6.549359" asserts="0">
                     <failure>
                       <message><![CDATA[TechTalk.SpecFlow.SpecFlowException : The ScenarioContext.Current static accessor cannot be used in multi-threaded execution. Try injecting the scenario context to the binding class. See http://go.specflow.org/doc-multithreaded for details.]]></message>
                       <stack-trace><![CDATA[   at TechTalk.SpecFlow.ScenarioContext.get_Current()
    at Zukini.UI.Examples.Features.Steps.SmokeTestSteps.GivenILaunchTheGoogleSearchPage() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Steps\SmokeTestSteps.cs:line 166
    at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.ScenarioCleanup()
    at Zukini.UI.Examples.Features.Features.SmokeTestFeature.ValidateSapientContactDetails(String phoneNumber, String faxNumber, String email, String[] exampleTags) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.UI.Examples.Features\Features\SmokeTest.feature:line 25]]></stack-trace>
                     </failure>
-                    <output><![CDATA[Unique Test Id: 20170919_093810_ce159
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_ValidateSapientContactDetails_20170919_093810_ce159.png
+                    <output><![CDATA[Unique Test Id: 20170919_101136_42805
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_ValidateSapientContactDetails_20170919_101136_42805.png
 ]]></output>
                   </test-case>
                 </test-suite>
-                <test-case id="3-1017" name="WaitForNavigationDoesNotTimeout" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesNotTimeout" methodname="WaitForNavigationDoesNotTimeout" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1070208933" result="Passed" start-time="2017-09-18 23:38:11Z" end-time="2017-09-18 23:38:18Z" duration="6.876850" asserts="1">
+                <test-case id="3-1017" name="WaitForNavigationDoesNotTimeout" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesNotTimeout" methodname="WaitForNavigationDoesNotTimeout" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1444507305" result="Passed" start-time="2017-09-19 00:11:38Z" end-time="2017-09-19 00:11:46Z" duration="7.834570" asserts="1">
                   <properties>
                     <property name="Description" value="WaitForNavigation does not timeout" />
                     <property name="Category" value="browser_session_extension" />
                   </properties>
-                  <output><![CDATA[Unique Test Id: 20170919_093817_addcb
+                  <output><![CDATA[Unique Test Id: 20170919_101143_736a0
 ]]></output>
                 </test-case>
-                <test-case id="3-1016" name="WaitForNavigationDoesTimeout" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesTimeout" methodname="WaitForNavigationDoesTimeout" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1423424466" result="Passed" start-time="2017-09-18 23:38:18Z" end-time="2017-09-18 23:38:30Z" duration="12.303360" asserts="1">
+                <test-case id="3-1016" name="WaitForNavigationDoesTimeout" fullname="Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesTimeout" methodname="WaitForNavigationDoesTimeout" classname="Zukini.UI.Examples.Features.Features.SmokeTestFeature" runstate="Runnable" seed="1293821704" result="Passed" start-time="2017-09-19 00:11:46Z" end-time="2017-09-19 00:11:58Z" duration="12.631931" asserts="1">
                   <properties>
                     <property name="Description" value="WaitForNavigation does timeout" />
                     <property name="Category" value="browser_session_extension" />
                   </properties>
-                  <output><![CDATA[Unique Test Id: 20170919_093823_cf157
+                  <output><![CDATA[Unique Test Id: 20170919_101150_b042b
 ]]></output>
                 </test-case>
               </test-suite>
@@ -823,8 +825,8 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/S
       </test-suite>
     </test-suite>
   </test-suite>
-  <test-suite type="Assembly" id="4-1013" name="Zukini.API.Examples.Features.dll" fullname="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\bin\Debug\Zukini.API.Examples.Features.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="64.120137" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
-    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10240.0" platform="Win32NT" cwd="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master" machine-name="WGTLAP2201" user="Ady.Kalra" user-domain="WGTECH" culture="en-US" uiculture="en-US" os-architecture="x64" />
+  <test-suite type="Assembly" id="4-1013" name="Zukini.API.Examples.Features.dll" fullname="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\bin\Debug\Zukini.API.Examples.Features.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="64.344665" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
+    <environment framework-version="3.8.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10240.0" platform="Win32NT" cwd="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master" machine-name="WGTLAP2201" user="Ady.Kalra" user-domain="WGTECH" culture="en-US" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="DisposeRunners" value="True" />
       <setting name="WorkDirectory" value="C:\CrownBet\GitHub\WorkOnThis\humita2.0-master" />
@@ -837,143 +839,52 @@ Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/S
     </settings>
     <properties>
       <property name="ParallelScope" value="Fixtures" />
-      <property name="_PID" value="6252" />
+      <property name="_PID" value="17284" />
       <property name="_APPDOMAIN" value="domain-99eddb30-Zukini.API.Examples.Features.dll" />
     </properties>
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="TestSuite" id="4-1014" name="Zukini" fullname="Zukini" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="64.097369" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
+    <test-suite type="TestSuite" id="4-1014" name="Zukini" fullname="Zukini" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="64.320271" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
       <failure>
         <message><![CDATA[One or more child tests had errors]]></message>
       </failure>
-      <test-suite type="TestSuite" id="4-1015" name="API" fullname="Zukini.API" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="64.093227" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
+      <test-suite type="TestSuite" id="4-1015" name="API" fullname="Zukini.API" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="64.319177" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
         <failure>
           <message><![CDATA[One or more child tests had errors]]></message>
         </failure>
-        <test-suite type="TestSuite" id="4-1016" name="Examples" fullname="Zukini.API.Examples" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="64.089772" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
+        <test-suite type="TestSuite" id="4-1016" name="Examples" fullname="Zukini.API.Examples" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="64.319069" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
           <failure>
             <message><![CDATA[One or more child tests had errors]]></message>
           </failure>
-          <test-suite type="TestSuite" id="4-1017" name="Features" fullname="Zukini.API.Examples.Features" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="64.086126" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
+          <test-suite type="TestSuite" id="4-1017" name="Features" fullname="Zukini.API.Examples.Features" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="64.318656" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
             <failure>
               <message><![CDATA[One or more child tests had errors]]></message>
             </failure>
-            <test-suite type="TestSuite" id="4-1018" name="Features" fullname="Zukini.API.Examples.Features.Features" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="64.083397" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
+            <test-suite type="TestSuite" id="4-1018" name="Features" fullname="Zukini.API.Examples.Features.Features" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="64.316935" total="8" passed="5" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="14">
               <failure>
                 <message><![CDATA[One or more child tests had errors]]></message>
               </failure>
-              <test-suite type="TestFixture" id="4-1000" name="APIExampleFeaturesFeature" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:38:34Z" duration="3.588099" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="14">
+              <test-suite type="TestFixture" id="4-1000" name="APIExampleFeaturesFeature" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:12:03Z" duration="4.033814" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="14">
                 <properties>
                   <property name="Description" value="API Example Features" />
                   <property name="Category" value="api" />
                 </properties>
-                <test-case id="4-1005" name="DeleteAPostFromOurFakeAPI" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.DeleteAPostFromOurFakeAPI" methodname="DeleteAPostFromOurFakeAPI" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="1815924899" result="Passed" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:38:33Z" duration="1.309406" asserts="1">
+                <output><![CDATA[-> Using app.config
+]]></output>
+                <test-case id="4-1005" name="DeleteAPostFromOurFakeAPI" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.DeleteAPostFromOurFakeAPI" methodname="DeleteAPostFromOurFakeAPI" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="964110322" result="Passed" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:12:01Z" duration="1.534535" asserts="1">
                   <properties>
                     <property name="Description" value="Delete a post from our fake API" />
                     <property name="Category" value="delete_example" />
                   </properties>
-                </test-case>
-                <test-case id="4-1001" name="GetAResourceFromAnAPIAndValidateTheReturnData" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.GetAResourceFromAnAPIAndValidateTheReturnData" methodname="GetAResourceFromAnAPIAndValidateTheReturnData" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="1398424267" result="Passed" start-time="2017-09-18 23:38:33Z" end-time="2017-09-18 23:38:33Z" duration="0.200650" asserts="4">
-                  <properties>
-                    <property name="Description" value="Get a resource from an API and validate the return data" />
-                    <property name="Category" value="get_example" />
-                  </properties>
-                </test-case>
-                <test-case id="4-1003" name="PatchToAnAPIAndValidateThatThePatchDataReturnedIsCorrect" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.PatchToAnAPIAndValidateThatThePatchDataReturnedIsCorrect" methodname="PatchToAnAPIAndValidateThatThePatchDataReturnedIsCorrect" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="1015636483" result="Passed" start-time="2017-09-18 23:38:33Z" end-time="2017-09-18 23:38:33Z" duration="0.615853" asserts="3">
-                  <properties>
-                    <property name="Description" value="Patch to an API and validate that the patch data returned is correct" />
-                    <property name="Category" value="patch_example" />
-                  </properties>
-                </test-case>
-                <test-case id="4-1002" name="PostToAnAPIAndValidateThatThePostDataReturnedIsCorrect" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.PostToAnAPIAndValidateThatThePostDataReturnedIsCorrect" methodname="PostToAnAPIAndValidateThatThePostDataReturnedIsCorrect" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="51156018" result="Passed" start-time="2017-09-18 23:38:33Z" end-time="2017-09-18 23:38:34Z" duration="0.519291" asserts="3">
-                  <properties>
-                    <property name="Description" value="Post to an API and validate that the post data returned is correct" />
-                    <property name="Category" value="post_example" />
-                  </properties>
-                </test-case>
-                <test-case id="4-1004" name="PutToAnAPIAndValidateThatThePutDataReturnedIsCorrect" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.PutToAnAPIAndValidateThatThePutDataReturnedIsCorrect" methodname="PutToAnAPIAndValidateThatThePutDataReturnedIsCorrect" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="1261753660" result="Passed" start-time="2017-09-18 23:38:34Z" end-time="2017-09-18 23:38:34Z" duration="0.503115" asserts="3">
-                  <properties>
-                    <property name="Description" value="Put to an API and validate that the put data returned is correct" />
-                    <property name="Category" value="put_example" />
-                  </properties>
-                </test-case>
-              </test-suite>
-              <test-suite type="TestFixture" id="4-1010" name="CCMSIAPIMobileExampleFeaturesForClaimFeature" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:14Z" duration="42.893361" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
-                <properties>
-                  <property name="Description" value="CCMSI API Mobile Example Features For Claim" />
-                  <property name="Category" value="api" />
-                </properties>
-                <failure>
-                  <message><![CDATA[One or more child tests had errors]]></message>
-                </failure>
-                <test-suite type="ParameterizedMethod" id="4-1012" name="CcmsiGetPaginatedClaimList" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.CcmsiGetPaginatedClaimList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:14Z" duration="42.472819" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
-                  <properties>
-                    <property name="Description" value="Ccmsi Get Paginated Claim List" />
-                    <property name="Category" value="claims" />
-                    <property name="Category" value="ccmsi" />
-                  </properties>
-                  <failure>
-                    <message><![CDATA[One or more child tests had errors]]></message>
-                  </failure>
-                  <test-case id="4-1011" name="CcmsiGetPaginatedClaimList(&quot;F148576&quot;,&quot;epenaloza@ccmsi.com&quot;,System.String[])" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.CcmsiGetPaginatedClaimList(&quot;F148576&quot;,&quot;epenaloza@ccmsi.com&quot;,System.String[])" methodname="CcmsiGetPaginatedClaimList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" runstate="Runnable" seed="916802071" result="Failed" label="Error" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:14Z" duration="42.469255" asserts="0">
-                    <failure>
-                      <message><![CDATA[Newtonsoft.Json.JsonReaderException : Error reading JObject from JsonReader. Path '', line 0, position 0.]]></message>
-                      <stack-trace><![CDATA[   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
-   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
-   at Zukini.API.Services.CcmsiService.GetDeserializeResponse[T](IRestResponse response) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\CcmsiService.cs:line 14
-   at Zukini.API.Services.Ccmsi.IdentityServer.Request.SearchIdentityServer.GetIdentityServerTokenDto() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\Ccmsi\IdentityServer\Request\SearchIdentityServer.cs:line 20
-   at Zukini.API.Examples.Features.Steps.CcmsiMobileApiExampleFeaturesSteps.GivenAnAccessToken() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Steps\CcmsiMobileApiExampleFeaturesSteps.cs:line 27
-   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.ScenarioCleanup()
-   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.CcmsiGetPaginatedClaimList(String claimNumber, String adjusterEmail, String[] exampleTags) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Features\ApiClaims.feature:line 10]]></stack-trace>
-                    </failure>
-                  </test-case>
-                </test-suite>
-              </test-suite>
-              <test-suite type="TestFixture" id="4-1006" name="CCMSIAPIMobileExampleFeaturesForClientFeature" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="64.078468" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
-                <properties>
-                  <property name="Description" value="CCMSI API Mobile Example Features for Client" />
-                  <property name="Category" value="api" />
-                </properties>
-                <failure>
-                  <message><![CDATA[One or more child tests had errors]]></message>
-                </failure>
-                <test-suite type="ParameterizedMethod" id="4-1009" name="CcmsiGetPaginatedClientList" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:39:35Z" duration="63.658064" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
-                  <properties>
-                    <property name="Description" value="Ccmsi Get Paginated Client List" />
-                    <property name="Category" value="clients" />
-                    <property name="Category" value="ccmsi" />
-                  </properties>
-                  <failure>
-                    <message><![CDATA[One or more child tests had errors]]></message>
-                  </failure>
-                  <test-case id="4-1007" name="CcmsiGetPaginatedClientList(&quot;001&quot;,&quot;Nacco (001)&quot;,System.String[])" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList(&quot;001&quot;,&quot;Nacco (001)&quot;,System.String[])" methodname="CcmsiGetPaginatedClientList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" seed="540619942" result="Failed" label="Error" start-time="2017-09-18 23:38:31Z" end-time="2017-09-18 23:38:53Z" duration="21.644158" asserts="0">
-                    <failure>
-                      <message><![CDATA[Newtonsoft.Json.JsonReaderException : Error reading JObject from JsonReader. Path '', line 0, position 0.]]></message>
-                      <stack-trace><![CDATA[   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
-   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
-   at Zukini.API.Services.CcmsiService.GetDeserializeResponse[T](IRestResponse response) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\CcmsiService.cs:line 14
-   at Zukini.API.Services.Ccmsi.IdentityServer.Request.SearchIdentityServer.GetIdentityServerTokenDto() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\Ccmsi\IdentityServer\Request\SearchIdentityServer.cs:line 20
-   at Zukini.API.Examples.Features.Steps.CcmsiMobileApiExampleFeaturesSteps.GivenAnAccessToken() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Steps\CcmsiMobileApiExampleFeaturesSteps.cs:line 27
-   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.ScenarioCleanup()
-   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList(String clientValue, String clientName, String[] exampleTags) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Features\ApiClients.feature:line 11]]></stack-trace>
-                    </failure>
-                    <output><![CDATA[#23: Given an access token
-#21: Given I perform a DELETE for postId "1"
-#22: Given an access token
--> #21: done: JsonPlaceholderApiSteps.GivenIPerformAdeleteForPostId(1) (1.1s)
+                  <output><![CDATA[#21: Given I perform a DELETE for postId "1"
+#20: Given an access token
+#19: Given an access token
+-> #21: done: JsonPlaceholderApiSteps.GivenIPerformAdeleteForPostId(1) (1.3s)
 #21: Then I should get a status code of "OK"
 -> #21: done: JsonPlaceholderApiSteps.ThenIShouldGetAStatusCodeOf("OK") (0.0s)
 #21: Given I perform a GET for post "1"
--> #21: done: JsonPlaceholderApiSteps.GivenIPerformAgetForPost(1) (0.2s)
+-> #21: done: JsonPlaceholderApiSteps.GivenIPerformAgetForPost(1) (0.4s)
 #21: Then the Get response should contain the following data
   --- table step argument ---
   | userId | id | title                                                                      | body                                                                                                                                                           |
@@ -986,7 +897,7 @@ nostrum rerum est autem sunt rem eveniet architecto |
   --- table step argument ---
   | title               | body                                                 | userId |
   | Checkout this PATCH | Here is a test title to demonstrate testing a patch. | 123    |
--> #21: done: JsonPlaceholderApiSteps.GivenIPatchOrPutARecordWithId("Patch", 1, <table>) (0.6s)
+-> #21: done: JsonPlaceholderApiSteps.GivenIPatchOrPutARecordWithId("Patch", 1, <table>) (0.5s)
 #21: Then the "Patch" data should return "Checkout this PATCH" in the "title" field
 -> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Patch", "Checkout this PATCH", "title") (0.0s)
 #21: Then the "Patch" data should return "Here is a test title to demonstrate testing a patch." in the "body" field
@@ -1015,25 +926,67 @@ nostrum rerum est autem sunt rem eveniet architecto |
 -> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Put", "Here is a test ti...", "body") (0.0s)
 #21: Then the "Put" data should return "456" in the "userId" field
 -> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Put", "456", "userId") (0.0s)
--> #23: error: Error reading JObject from JsonReader. Path '', line 0, position 0.
-#23: When I search for userId "kthurman"
--> #23: skipped because of previous errors
-#23: Then the result contains 001 and Nacco (001)
--> #23: skipped because of previous errors
-#23: Given an access token
--> #22: error: Error reading JObject from JsonReader. Path '', line 0, position 0.
-#22: When I search for userId 'kthurman' and clientNumber '388'
--> #22: skipped because of previous errors
-#22: Then the result must contains F148576 and epenaloza@ccmsi.com
--> #22: skipped because of previous errors
--> #23: error: Error reading JObject from JsonReader. Path '', line 0, position 0.
-#23: When I search for userId "kthurman"
--> #23: skipped because of previous errors
-#23: Then the result contains 002 and CONSOLIDATED CONSTRUCTION SAFETY FUND OF ILLINOIS (002)
--> #23: skipped because of previous errors
+-> #19: error: Error reading JObject from JsonReader. Path '', line 0, position 0.
+#19: When I search for userId "kthurman"
+-> #19: skipped because of previous errors
+#19: Then the result contains 001 and Nacco (001)
+-> #19: skipped because of previous errors
+#19: Given an access token
+-> #20: error: Error reading JObject from JsonReader. Path '', line 0, position 0.
+#20: When I search for userId 'kthurman' and clientNumber '388'
+-> #20: skipped because of previous errors
+#20: Then the result must contains F148576 and epenaloza@ccmsi.com
+-> #20: skipped because of previous errors
+-> #19: error: Error reading JObject from JsonReader. Path '', line 0, position 0.
+#19: When I search for userId "kthurman"
+-> #19: skipped because of previous errors
+#19: Then the result contains 002 and CONSOLIDATED CONSTRUCTION SAFETY FUND OF ILLINOIS (002)
+-> #19: skipped because of previous errors
 ]]></output>
-                  </test-case>
-                  <test-case id="4-1008" name="CcmsiGetPaginatedClientList(&quot;002&quot;,&quot;CONSOLIDATED CONSTRUCTION SAFETY FUND OF ILLINOIS (002)&quot;,System.String[])" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList(&quot;002&quot;,&quot;CONSOLIDATED CONSTRUCTION SAFETY FUND OF ILLINOIS (002)&quot;,System.String[])" methodname="CcmsiGetPaginatedClientList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" seed="575189879" result="Failed" label="Error" start-time="2017-09-18 23:38:53Z" end-time="2017-09-18 23:39:35Z" duration="42.007562" asserts="0">
+                </test-case>
+                <test-case id="4-1001" name="GetAResourceFromAnAPIAndValidateTheReturnData" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.GetAResourceFromAnAPIAndValidateTheReturnData" methodname="GetAResourceFromAnAPIAndValidateTheReturnData" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="1642282879" result="Passed" start-time="2017-09-19 00:12:01Z" end-time="2017-09-19 00:12:01Z" duration="0.427818" asserts="4">
+                  <properties>
+                    <property name="Description" value="Get a resource from an API and validate the return data" />
+                    <property name="Category" value="get_example" />
+                  </properties>
+                </test-case>
+                <test-case id="4-1003" name="PatchToAnAPIAndValidateThatThePatchDataReturnedIsCorrect" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.PatchToAnAPIAndValidateThatThePatchDataReturnedIsCorrect" methodname="PatchToAnAPIAndValidateThatThePatchDataReturnedIsCorrect" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="945246487" result="Passed" start-time="2017-09-19 00:12:01Z" end-time="2017-09-19 00:12:02Z" duration="0.526232" asserts="3">
+                  <properties>
+                    <property name="Description" value="Patch to an API and validate that the patch data returned is correct" />
+                    <property name="Category" value="patch_example" />
+                  </properties>
+                </test-case>
+                <test-case id="4-1002" name="PostToAnAPIAndValidateThatThePostDataReturnedIsCorrect" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.PostToAnAPIAndValidateThatThePostDataReturnedIsCorrect" methodname="PostToAnAPIAndValidateThatThePostDataReturnedIsCorrect" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="1692043501" result="Passed" start-time="2017-09-19 00:12:02Z" end-time="2017-09-19 00:12:02Z" duration="0.505861" asserts="3">
+                  <properties>
+                    <property name="Description" value="Post to an API and validate that the post data returned is correct" />
+                    <property name="Category" value="post_example" />
+                  </properties>
+                </test-case>
+                <test-case id="4-1004" name="PutToAnAPIAndValidateThatThePutDataReturnedIsCorrect" fullname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.PutToAnAPIAndValidateThatThePutDataReturnedIsCorrect" methodname="PutToAnAPIAndValidateThatThePutDataReturnedIsCorrect" classname="Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature" runstate="Runnable" seed="1473381245" result="Passed" start-time="2017-09-19 00:12:02Z" end-time="2017-09-19 00:12:03Z" duration="0.491418" asserts="3">
+                  <properties>
+                    <property name="Description" value="Put to an API and validate that the put data returned is correct" />
+                    <property name="Category" value="put_example" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="4-1010" name="CCMSIAPIMobileExampleFeaturesForClaimFeature" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:12:42Z" duration="43.082950" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="Description" value="CCMSI API Mobile Example Features For Claim" />
+                  <property name="Category" value="api" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="4-1012" name="CcmsiGetPaginatedClaimList" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.CcmsiGetPaginatedClaimList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:12:42Z" duration="42.550182" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties>
+                    <property name="Description" value="Ccmsi Get Paginated Claim List" />
+                    <property name="Category" value="claims" />
+                    <property name="Category" value="ccmsi" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="4-1011" name="CcmsiGetPaginatedClaimList(&quot;F148576&quot;,&quot;epenaloza@ccmsi.com&quot;,null)" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.CcmsiGetPaginatedClaimList(&quot;F148576&quot;,&quot;epenaloza@ccmsi.com&quot;,null)" methodname="CcmsiGetPaginatedClaimList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature" runstate="Runnable" seed="1326958026" result="Failed" label="Error" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:12:42Z" duration="42.549537" asserts="0">
                     <failure>
                       <message><![CDATA[Newtonsoft.Json.JsonReaderException : Error reading JObject from JsonReader. Path '', line 0, position 0.]]></message>
                       <stack-trace><![CDATA[   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
@@ -1043,7 +996,58 @@ nostrum rerum est autem sunt rem eveniet architecto |
    at Zukini.API.Examples.Features.Steps.CcmsiMobileApiExampleFeaturesSteps.GivenAnAccessToken() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Steps\CcmsiMobileApiExampleFeaturesSteps.cs:line 27
    at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.ScenarioCleanup()
+   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClaimFeature.CcmsiGetPaginatedClaimList(String claimNumber, String adjusterEmail, String[] exampleTags) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Features\ApiClaims.feature:line 10]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </test-suite>
+              </test-suite>
+              <test-suite type="TestFixture" id="4-1006" name="CCMSIAPIMobileExampleFeaturesForClientFeature" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="64.304608" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="Description" value="CCMSI API Mobile Example Features for Client" />
+                  <property name="Category" value="api" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="ParameterizedMethod" id="4-1009" name="CcmsiGetPaginatedClientList" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:13:03Z" duration="63.773837" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                  <properties>
+                    <property name="Description" value="Ccmsi Get Paginated Client List" />
+                    <property name="Category" value="clients" />
+                    <property name="Category" value="ccmsi" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                  </failure>
+                  <test-case id="4-1007" name="CcmsiGetPaginatedClientList(&quot;001&quot;,&quot;Nacco (001)&quot;,null)" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList(&quot;001&quot;,&quot;Nacco (001)&quot;,null)" methodname="CcmsiGetPaginatedClientList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" seed="1410198460" result="Failed" label="Error" start-time="2017-09-19 00:11:59Z" end-time="2017-09-19 00:12:21Z" duration="21.736074" asserts="0">
+                    <failure>
+                      <message><![CDATA[Newtonsoft.Json.JsonReaderException : Error reading JObject from JsonReader. Path '', line 0, position 0.]]></message>
+                      <stack-trace><![CDATA[   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Zukini.API.Services.CcmsiService.GetDeserializeResponse[T](IRestResponse response) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\CcmsiService.cs:line 14
+   at Zukini.API.Services.Ccmsi.IdentityServer.Request.SearchIdentityServer.GetIdentityServerTokenDto() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\Ccmsi\IdentityServer\Request\SearchIdentityServer.cs:line 20
+   at Zukini.API.Examples.Features.Steps.CcmsiMobileApiExampleFeaturesSteps.GivenAnAccessToken() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Steps\CcmsiMobileApiExampleFeaturesSteps.cs:line 27
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.ScenarioCleanup()
+   at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList(String clientValue, String clientName, String[] exampleTags) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Features\ApiClients.feature:line 11]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case id="4-1008" name="CcmsiGetPaginatedClientList(&quot;002&quot;,&quot;CONSOLIDATED CONSTRUCTION SAFETY FUND OF ILLINOIS (002)&quot;,null)" fullname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList(&quot;002&quot;,&quot;CONSOLIDATED CONSTRUCTION SAFETY FUND OF ILLINOIS (002)&quot;,null)" methodname="CcmsiGetPaginatedClientList" classname="Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature" runstate="Runnable" seed="1467184128" result="Failed" label="Error" start-time="2017-09-19 00:12:21Z" end-time="2017-09-19 00:13:03Z" duration="42.034557" asserts="0">
+                    <failure>
+                      <message><![CDATA[Newtonsoft.Json.JsonReaderException : Error reading JObject from JsonReader. Path '', line 0, position 0.]]></message>
+                      <stack-trace><![CDATA[   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Zukini.API.Services.CcmsiService.GetDeserializeResponse[T](IRestResponse response) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\CcmsiService.cs:line 14
+   at Zukini.API.Services.Ccmsi.IdentityServer.Request.SearchIdentityServer.GetIdentityServerTokenDto() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Services\Ccmsi\IdentityServer\Request\SearchIdentityServer.cs:line 20
+   at Zukini.API.Examples.Features.Steps.CcmsiMobileApiExampleFeaturesSteps.GivenAnAccessToken() in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Steps\CcmsiMobileApiExampleFeaturesSteps.cs:line 27
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
    at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
    at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.ScenarioCleanup()
    at Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList(String clientValue, String clientName, String[] exampleTags) in C:\CrownBet\GitHub\WorkOnThis\humita2.0-master\Zukini.API.Examples.Features\Features\ApiClients.feature:line 11]]></stack-trace>

@@ -1,150 +1,92 @@
 => Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToTryUntilAButtonAppears
-Unique Test Id: 20170919_093650_c01e6
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttodemonstratehowtotryuntilabuttonappears_20170919_093650_c01e6.png
+Unique Test Id: 20170919_101010_ad47c
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttodemonstratehowtotryuntilabuttonappears_20170919_101010_ad47c.png
 => Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.FailedLoginDueToIncorrectUsernameOrPassword
-Unique Test Id: 20170919_093650_b5ce8
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Failedloginduetoincorrectusernameorpassword_20170919_093650_b5ce8.png
-=> Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem
-Unique Test Id: 20170919_093649_c3152
-#12: Given I am on AngularJS page
-#11: Given I create a button that creates a delayed button
--> #11: done: SmokeTestSteps.GivenICreateAButtonThatCreatesADelayedButton() (0.0s)
-#11: When I use TryUntil on the button
-#10: Given I am at the login page
--> #10: done: LoginSteps.GivenIAmAtTheLoginPage() (0.7s)
-#10: When I fill in the following form
+Unique Test Id: 20170919_101009_28c74
+#11: Given I am at the login page
+#10: Given I am on AngularJS page
+#12: Given I create a button that creates a delayed button
+-> #12: done: SmokeTestSteps.GivenICreateAButtonThatCreatesADelayedButton() (0.1s)
+#12: When I use TryUntil on the button
+-> #11: done: LoginSteps.GivenIAmAtTheLoginPage() (0.9s)
+#11: When I fill in the following form
   --- table step argument ---
   | field    | value    |
   | Email    | xtrumanx |
   | Password | P@55w0Rd |
--> #11: error: Unable to find button: button1
-#11: Then the second button should exist
+-> #12: error: Unable to find button: button1
+#12: Then the second button should exist
+-> #12: skipped because of previous errors
+-> #11: error: Unable to find xpath: .//input[@name='Email']
+#11: And I click the login button
 -> #11: skipped because of previous errors
--> #10: error: Unable to find xpath: .//input[@name='Email']
-#10: And I click the login button
--> #10: skipped because of previous errors
-#10: Then I should see "User name or password incorrect."
--> #10: skipped because of previous errors
-#11: Given I navigate to W3Schools table reference page
--> #12: error:   Expected: True
-  But was:  False
-
-#12: When I choose to add second ToDO Item
--> #12: skipped because of previous errors
-#12: Then Item should be displayed
--> #12: skipped because of previous errors
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddSecondToDoItem_20170919_093649_c3152.png
-#10: Given I am at the login page
--> #10: done: LoginSteps.GivenIAmAtTheLoginPage() (1.0s)
-#10: When I fill in the following form
-  --- table step argument ---
-  | field    | value                          |
-  | Email    | matias.alfonso@jbknowledge.com |
-  | Password | Maipu671                       |
+#11: Then I should see "User name or password incorrect."
+-> #11: skipped because of previous errors
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Failedloginduetoincorrectusernameorpassword_20170919_101009_28c74.png
+=> Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddSecondToDoItem
+Unique Test Id: 20170919_101009_1b397
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddSecondToDoItem_20170919_101009_1b397.png
 => Zukini.UI.Examples.Features.Features.ClaimView.LoginFeature.LoggingInWithValidCredentials
-Unique Test Id: 20170919_093658_f2d79
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Logginginwithvalidcredentials_20170919_093658_f2d79.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Chrome",System.String[])
-Unique Test Id: 20170919_093657_7c16f
+Unique Test Id: 20170919_101018_b7961
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/Login_Logginginwithvalidcredentials_20170919_101018_b7961.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Chrome",null)
+Unique Test Id: 20170919_101017_3e06a
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.AddToDoItems
-Unique Test Id: 20170919_093704_4dcbb
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddToDoItems_20170919_093704_4dcbb.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Internet Explorer / Edge",System.String[])
-Unique Test Id: 20170919_093706_df98c
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_IwanttodemonstratehowtouseSpecFlowdatatables_20170919_093706_df98c.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("FireFox",System.String[])
-Unique Test Id: 20170919_093716_eb79e
+Unique Test Id: 20170919_101024_d6e93
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_AddToDoItems_20170919_101024_d6e93.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Internet Explorer / Edge",null)
+Unique Test Id: 20170919_101028_4534b
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_IwanttodemonstratehowtouseSpecFlowdatatables_20170919_101028_4534b.png
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearClosedToDoItemByClickingClearCompletedButton
-Unique Test Id: 20170919_093717_969dd
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearClosedToDoItembyclickingClearCompletedButton_20170919_093717_969dd.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Safari",System.String[])
-Unique Test Id: 20170919_093725_0301c
+Unique Test Id: 20170919_101036_a280e
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearClosedToDoItembyclickingClearCompletedButton_20170919_101036_a280e.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("FireFox",null)
+Unique Test Id: 20170919_101037_ff4df
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ClearToDoItemCompletelyByClickingCloseIcon
-Unique Test Id: 20170919_093729_80e44
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearToDoItemCompletelybyclickingcloseicon_20170919_093729_80e44.png
+Unique Test Id: 20170919_101046_c4dd2
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ClearToDoItemCompletelybyclickingcloseicon_20170919_101046_c4dd2.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseSpecFlowDataTables("Safari",null)
+Unique Test Id: 20170919_101046_91481
 => Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToUseThePropertyBucket
-Unique Test Id: 20170919_093734_421fe
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToWaitForAButtonToAppear
-Unique Test Id: 20170919_093743_3243b
+Unique Test Id: 20170919_101057_1ba52
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.CompleteFirstItem
-Unique Test Id: 20170919_093740_b1648
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_CompleteFirstItem_20170919_093740_b1648.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToShowHowToUseRowAndCellHelpers
-Unique Test Id: 20170919_093749_be0df
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttoshowhowtouserowandcellhelpers_20170919_093749_be0df.png
+Unique Test Id: 20170919_101056_32218
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_CompleteFirstItem_20170919_101056_32218.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToDemonstrateHowToWaitForAButtonToAppear
+Unique Test Id: 20170919_101108_79e01
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.EditContentOfFirstItem
-Unique Test Id: 20170919_093751_64ba7
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_EditContentofFirstItem_20170919_093751_64ba7.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite
-Unique Test Id: 20170919_093801_7381c
+Unique Test Id: 20170919_101110_60b29
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_EditContentofFirstItem_20170919_101110_60b29.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.IWantToShowHowToUseRowAndCellHelpers
+Unique Test Id: 20170919_101114_9b541
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_Iwanttoshowhowtouserowandcellhelpers_20170919_101114_9b541.png
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.FilterCompletedItems
-Unique Test Id: 20170919_093802_7da02
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_FilterCompletedItems_20170919_093802_7da02.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.ValidateSapientContactDetails("+91 (080) 6128 0000","+91 (080) 6128 0001","info@sapient.com",System.String[])
-Unique Test Id: 20170919_093810_ce159
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_ValidateSapientContactDetails_20170919_093810_ce159.png
-=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesNotTimeout
-Unique Test Id: 20170919_093817_addcb
+Unique Test Id: 20170919_101123_7f66e
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_FilterCompletedItems_20170919_101123_7f66e.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.PerformAGoogleSearchForSpecFlowReturnsSpecflow_OrgSite
+Unique Test Id: 20170919_101126_24e4d
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.ValidateSapientContactDetails("+91 (080) 6128 0000","+91 (080) 6128 0001","info@sapient.com",null)
+Unique Test Id: 20170919_101136_42805
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/SmokeTest_ValidateSapientContactDetails_20170919_101136_42805.png
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.MarkAllToDoItemsAsCompleted
-Unique Test Id: 20170919_093812_8b4cb
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_MarkallToDoItemsasCompleted_20170919_093812_8b4cb.png
+Unique Test Id: 20170919_101136_f75e7
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_MarkallToDoItemsasCompleted_20170919_101136_f75e7.png
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesNotTimeout
+Unique Test Id: 20170919_101143_736a0
 => Zukini.UI.Examples.Features.Features.ToDoMVC.ToDoMVCFeature.ReactivateFirstItem
-Unique Test Id: 20170919_093824_86b8b
-Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ReactivateFirstItem_20170919_093824_86b8b.png
+Unique Test Id: 20170919_101147_021f8
+Screenshot: file:///C:/CrownBet/GitHub/WorkOnThis/humita2.0-master/screenshots/ToDoMVC_ReactivateFirstItem_20170919_101147_021f8.png
 => Zukini.UI.Examples.Features.Features.SmokeTestFeature.WaitForNavigationDoesTimeout
-Unique Test Id: 20170919_093823_cf157
-=> Zukini.API.Examples.Features.Features.CCMSIAPIMobileExampleFeaturesForClientFeature.CcmsiGetPaginatedClientList("001","Nacco (001)",System.String[])
-#23: Given an access token
+Unique Test Id: 20170919_101150_b042b
+=> Zukini.UI.Examples.Features.Features.SmokeTestFeature
+-> Using app.config
+=> Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature.DeleteAPostFromOurFakeAPI
 #21: Given I perform a DELETE for postId "1"
-#22: Given an access token
--> #21: done: JsonPlaceholderApiSteps.GivenIPerformAdeleteForPostId(1) (1.1s)
+#20: Given an access token
+#19: Given an access token
+-> #21: done: JsonPlaceholderApiSteps.GivenIPerformAdeleteForPostId(1) (1.3s)
 #21: Then I should get a status code of "OK"
 -> #21: done: JsonPlaceholderApiSteps.ThenIShouldGetAStatusCodeOf("OK") (0.0s)
 #21: Given I perform a GET for post "1"
--> #21: done: JsonPlaceholderApiSteps.GivenIPerformAgetForPost(1) (0.2s)
-#21: Then the Get response should contain the following data
-  --- table step argument ---
-  | userId | id | title                                                                      | body                                                                                                                                                           |
-  | 1      | 1  | sunt aut facere repellat provident occaecati excepturi optio reprehenderit | quia et suscipit
-suscipit recusandae consequuntur expedita et cum
-reprehenderit molestiae ut ut quas totam
-nostrum rerum est autem sunt rem eveniet architecto |
--> #21: done: JsonPlaceholderApiSteps.ThenTheGetResponseShouldContainTheFollowingData(<table>) (0.0s)
-#21: Given I "Patch" a record with id "1"
-  --- table step argument ---
-  | title               | body                                                 | userId |
-  | Checkout this PATCH | Here is a test title to demonstrate testing a patch. | 123    |
--> #21: done: JsonPlaceholderApiSteps.GivenIPatchOrPutARecordWithId("Patch", 1, <table>) (0.6s)
-#21: Then the "Patch" data should return "Checkout this PATCH" in the "title" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Patch", "Checkout this PATCH", "title") (0.0s)
-#21: Then the "Patch" data should return "Here is a test title to demonstrate testing a patch." in the "body" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Patch", "Here is a test ti...", "body") (0.0s)
-#21: Then the "Patch" data should return "123" in the "userId" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Patch", "123", "userId") (0.0s)
-#21: Given I post the following data to the API
-  --- table step argument ---
-  | title                  | body                                                | userId |
-  | Checkout this new POST | Here is a test title to demonstrate testing a post. | 123    |
--> #21: done: JsonPlaceholderApiSteps.GivenIPostTheFollowingDataToTheApi(<table>) (0.5s)
-#21: Then the post data should return "Checkout this new POST" in the "title" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePostDataShouldReturnInTheField("Checkout this new...", "title") (0.0s)
-#21: And the post data should return "Here is a test title to demonstrate testing a post." in the "body" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePostDataShouldReturnInTheField("Here is a test ti...", "body") (0.0s)
-#21: And the post data should return "123" in the "userId" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePostDataShouldReturnInTheField("123", "userId") (0.0s)
-#21: Given I "Put" a record with id "2"
-  --- table step argument ---
-  | title           | body                                               | userId |
-  | Checkout my PUT | Here is a test title to demonstrate testing a put. | 456    |
--> #21: done: JsonPlaceholderApiSteps.GivenIPatchOrPutARecordWithId("Put", 2, <table>) (0.5s)
-#21: Then the "Put" data should return "Checkout my PUT" in the "title" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Put", "Checkout my PUT", "title") (0.0s)
-#21: Then the "Put" data should return "Here is a test title to demonstrate testing a put." in the "body" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Put", "Here is a test ti...", "body") (0.0s)
-#21: Then the "Put" data should return "456" in the "userId" field
--> #21: done: JsonPlaceholderApiSteps.ThenThePutOrPostDataShouldReturnInTheField("Put", "456", "userId") (0.0s)
--> #23: error: Error reading JObject from JsonReader. Path '', line 0, position 0.
-#23: When I search for userId "kthurman"
--> #23: skipped because of previous errors
-#23: Then the result contains 001 and Nacco (001)
--> #23: skipped because of previous errors
+=> Zukini.API.Examples.Features.Features.APIExampleFeaturesFeature
+-> Using app.config

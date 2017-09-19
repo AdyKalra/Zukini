@@ -18,7 +18,7 @@ call :GenerateDocumentation
 
 :Defaults
 rem ===========================================================================
-SET PICKLES_EXE=%~dp0packages\Pickles.CommandLine.2.16.0\tools\pickles.exe
+SET PICKLES_EXE=%~dp0packages\Pickles.CommandLine.2.16.2\tools\pickles.exe
 SET OUTPUT_DIR=%~dp0\Pickles
 SET TEST_RESULTS=%~dp0TestResults.xml
 SET DOC_FORMAT=Dhtml
