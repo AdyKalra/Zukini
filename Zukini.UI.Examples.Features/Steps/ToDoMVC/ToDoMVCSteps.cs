@@ -34,7 +34,7 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         [When(@"I choose to add ToDo Item")]
         public void WhenIChooseToAddToDoItem()
         {
-            ScenarioContext.Current.Pending();
+            _todomvcpage.Additem1();
         }
         
         [When(@"I choose to edit content of First Item")]
@@ -88,7 +88,7 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         [Then(@"Item should be displayed")]
         public void ThenItemShouldBeDisplayed()
         {
-            ScenarioContext.Current.Pending();
+            Assert.IsTrue(_todomvcpage.ConfirmItem1());
         }
         
         [Then(@"Item should be marked as completed")]

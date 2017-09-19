@@ -1,5 +1,6 @@
 ﻿using Coypu;
 using Zukini.UI.Pages;
+using OpenQA.Selenium;
 
 
 namespace Zukini.UI.Examples.Pages.ToDoMVC
@@ -15,8 +16,9 @@ namespace Zukini.UI.Examples.Pages.ToDoMVC
         }
 
         public ElementScope AngularPageLink => _browser.FindXPath("//a[@href='examples/angularjs']");
-        public ElementScope ToDoItem => _browser.FindField("ng-binding");
-        
+        public ElementScope ToDoItem => _browser.FindId("new-todo");
+        public ElementScope Item1display => _browser.FindField("//[@class='ng-binding']");
+
 
         public void ClickAngularPageLink()
         {
@@ -26,6 +28,18 @@ namespace Zukini.UI.Examples.Pages.ToDoMVC
         public bool ConfirmAngularpage()
         {
             return ToDoItem.Exists();
+        }
+
+        public void Additem1()
+        {
+            ToDoItem.SendKeys("Item1");
+            ToDoItem.SendKeys(Keys.Enter);
+            
+        }
+
+        public bool ConfirmItem1()
+        {
+            return Item1display.Exists();
         }
     }
 }
