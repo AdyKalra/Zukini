@@ -17,7 +17,7 @@ namespace Zukini.UI.Examples.Pages.ToDoMVC
 
         public ElementScope AngularPageLink => _browser.FindXPath("//a[@href='examples/angularjs']");
         public ElementScope ToDoItem => _browser.FindId("new-todo");
-        public ElementScope Item1display => _browser.FindField("//[@class='ng-binding']");
+        public ElementScope Item1display => _browser.FindXPath("//*[@id='todo-list']/li/div/label");
 
 
         public void ClickAngularPageLink()
