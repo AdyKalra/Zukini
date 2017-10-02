@@ -18,7 +18,7 @@ namespace Zukini.UI.Examples.Pages.ToDoMVC
         public ElementScope AngularPageLink => _browser.FindXPath("//a[@href='examples/angularjs']");
         public ElementScope ToDoItem => _browser.FindId("new-todo");
         public ElementScope Item1display => _browser.FindXPath("//*[@id='todo-list']/li/div/label");
-
+        public ElementScope Item2display => _browser.FindXPath("//*[@id='todo-list']/li[2]/div/label");
 
         public void ClickAngularPageLink()
         {
@@ -37,9 +37,20 @@ namespace Zukini.UI.Examples.Pages.ToDoMVC
             
         }
 
+        public void AddSecondItem()
+        {
+            ToDoItem.SendKeys("Item2");
+            ToDoItem.SendKeys(Keys.Enter);
+        }
+
         public bool ConfirmItem1()
         {
             return Item1display.Exists();
+        }
+
+        public bool ConfirmItem2()
+        {
+            return Item2display.Exists();
         }
     }
 }

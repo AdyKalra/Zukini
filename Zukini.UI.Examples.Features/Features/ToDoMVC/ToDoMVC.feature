@@ -28,7 +28,7 @@ Scenario: Reactivate First Item
 Scenario: Add Second ToDoItem
 	Given I am on AngularJS page
 	When I choose to add second ToDO Item
-	Then Item should be displayed
+	Then the second Item should be displayed
 
 @CompleteAllToDoItems
 Scenario: Mark all ToDo Items as Completed

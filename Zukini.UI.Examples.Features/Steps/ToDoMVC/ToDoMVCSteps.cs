@@ -58,7 +58,8 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         [When(@"I choose to add second ToDO Item")]
         public void WhenIChooseToAddSecondToDOItem()
         {
-            ScenarioContext.Current.Pending();
+            _todomvcpage.Additem1();
+            _todomvcpage.AddSecondItem();
         }
         
         [When(@"I choose to mark all ToDo Items as Completed")]
@@ -90,7 +91,13 @@ namespace Zukini.UI.Examples.Features.Steps.ToDoMVC
         {
             Assert.IsTrue(_todomvcpage.ConfirmItem1());
         }
-        
+
+        [Then(@"the second Item should be displayed")]
+        public void ThenTheSecondItemShouldBeDisplayed()
+        {
+            Assert.IsTrue(_todomvcpage.ConfirmItem2());
+        }
+
         [Then(@"Item should be marked as completed")]
         public void ThenItemShouldBeMarkedAsCompleted()
         {
