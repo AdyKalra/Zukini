@@ -69,6 +69,7 @@
     <Compile Include="GoogleSearchPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PageSettings.cs" />
+    <Compile Include="Punters\PuntersPage.cs" />
     <Compile Include="ToDoMVC\ToDoMVCPage.cs" />
     <Compile Include="W3SchoolsTablePage.cs" />
   </ItemGroup>
